@@ -4,6 +4,7 @@ import MyMap from "./list-tracker/components/MyMap";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { GoogleMap, MarkerF } from "@react-google-maps/api";
+import { Marker } from "@react-google-maps/api";
 
 const baseURL = "localhost:5173";
 
@@ -145,8 +146,8 @@ function App() {
                 zoom={defaultProps.zoom}
               >
                 <div className="MyMap">
-                  <MyMap lat={29.857629892} lng={-95.393115648} text={"A"} />
-                  <MyMap lat={59.955412} lng={30.337844} text={"B"} />
+                  <Marker position={defaultProps.center} visible={true} />
+                  {/* <MyMap lat={59.955412} lng={30.337844} text={"B"} /> */}
                 </div>
               </GoogleMapReact>
             </div>

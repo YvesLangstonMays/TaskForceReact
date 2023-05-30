@@ -19,6 +19,7 @@ const schema = z.object({
 });
 
 type FormData = z.infer<typeof schema>;
+let dataList = new Array();
 
 const SubmissionBox = () => {
   const {
@@ -37,6 +38,8 @@ const SubmissionBox = () => {
       .then((data) => data.json())
       .then((data) => {
         console.log(data);
+        dataList.push(data);
+        console.log("Data list\n" + dataList);
       })
       .catch((error) => console.log(error));
   };
