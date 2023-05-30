@@ -18,12 +18,15 @@ const style = {
 };
 
 const MapTracking = ({ passedComp }: any) => {
-  console.log(passedComp[0]);
-  let dataList = Object.assign({}, passedComp[0]);
-  console.log(dataList);
-  const onLoad = () => {
-    console.log();
-  };
+  let locations = [];
+  for (var i = 0; i < passedComp[0].length; i++) {
+    console.log(passedComp[0][i]);
+    locations.push(passedComp[0][i]);
+  }
+  console.log(locations);
+  //  Make no more changes, just need to figure out how
+  //  to get rid of quotes around values in locations.
+  const onLoad = () => {};
   return (
     <div className="theMap">
       <LoadScript googleMapsApiKey={API_Key}>
