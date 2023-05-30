@@ -1,7 +1,5 @@
 import SubmissionBox from "./trackers/components/SubmissionBox";
 
-const baseURL = "localhost:5173";
-
 function App() {
   return (
     <>
@@ -109,8 +107,8 @@ function App() {
           </div>
 
           <div className="logosDiv">
-            <img src="twc final.png" className="twc" />
-            <img src="task force final.png" className="tff" />
+            <img src="src/images/twc final.png" className="twc" />
+            <img src="src/images/task force final.png" className="tff" />
           </div>
           <div className="zipbox">
             <SubmissionBox />

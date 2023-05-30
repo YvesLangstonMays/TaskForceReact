@@ -23,11 +23,9 @@ def zipDetail(request, pk):
     while (counter < len(newList)):
         latitude = str(newList[counter]["Latitude"])
         longitude = str(newList[counter]["Longitude"])
-        lat = "{lat: "
-        lng = " lng: "
-        closebrack = "}"
-        finalLatLng = (lat + latitude + lng + longitude + closebrack)
-        finalLatLng_List.append(finalLatLng.replace("'", "")) 
+        finalLatLng = (latitude + "," + longitude ) 
+        finalLatLng_List.append(finalLatLng)
+        finalLatLng_List = [item.replace("'", '') for item in finalLatLng_List]
         counter += 1
     
     return Response(finalLatLng_List)
