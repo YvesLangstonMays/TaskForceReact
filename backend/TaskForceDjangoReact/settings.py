@@ -40,12 +40,6 @@ INTERNAL_IPS = [
 
 
 
-DEBUG_TOOLBAR_CONFIG = {
-    'INTERCEPT_REDIRECTS': True,
-    'ENABLE_STACKTRACES' : True,
-    'HIDE_DJANGO_SQL': False,
-}
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -58,7 +52,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     "Website",
-    "debug_toolbar",
     
 ]
 
@@ -71,7 +64,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    "debug_toolbar.middleware.DebugToolbarMiddleware",
     
 ]
 
