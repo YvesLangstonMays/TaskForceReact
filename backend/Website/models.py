@@ -14,4 +14,4 @@ class Sites(models.Model):
     ZIP = models.TextField(max_length=255)
     site_type = models.TextField(max_length=255)
     Latitude = models.FloatField(primary_key=True)
-    Longitude = models.FloatField(max_length=20)
+    Longitude = models.FloatField()
