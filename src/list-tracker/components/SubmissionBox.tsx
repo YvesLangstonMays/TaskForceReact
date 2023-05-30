@@ -1,6 +1,7 @@
 import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import MapTracking from "./MapTracking";
 
 const schema = z.object({
   zipCode: z
@@ -36,7 +37,6 @@ const SubmissionBox = () => {
       .then((data) => {
         console.log(data);
         dataList.push(data);
-        console.log("Data list\n" + dataList);
       })
       .catch((error) => console.log(error));
   };
@@ -44,6 +44,7 @@ const SubmissionBox = () => {
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div className="mb-3">
+        <MapTracking passedComp={dataList} />
         <label htmlFor="zipCode" className="form-label">
           Zipcode
         </label>

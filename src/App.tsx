@@ -1,25 +1,14 @@
+import MapTracking from "./list-tracker/components/MapTracking";
 import SubmissionBox from "./list-tracker/components/SubmissionBox";
-import GoogleMapReact from "google-map-react";
-import { MarkerF, Marker } from "@react-google-maps/api";
 
 const baseURL = "localhost:5173";
 
 function App() {
-  const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
-
   interface mapPropTypes {
     center: [];
     zoom: number;
     desiredCoords: any;
   }
-
-  const defaultProps = {
-    center: {
-      lat: 29.7377637,
-      lng: -95.3328939,
-    },
-    zoom: 9,
-  };
 
   return (
     <>
@@ -132,23 +121,7 @@ function App() {
           </div>
           <div className="zipbox">
             <SubmissionBox />
-          </div>
-
-          <div>
-            <div className="theMap" style={{ height: "36vh", width: "90%" }}>
-              <GoogleMapReact
-                bootstrapURLKeys={{ key: API_Key }}
-                center={defaultProps.center}
-                zoom={defaultProps.zoom}
-              >
-                <MarkerF
-                  position={defaultProps.center}
-                  icon={
-                    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
-                  }
-                ></MarkerF>
-              </GoogleMapReact>
-            </div>
+            <MapTracking />
           </div>
         </div>
       </div>
