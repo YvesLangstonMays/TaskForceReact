@@ -1,10 +1,7 @@
 import SubmissionBox from "./list-tracker/components/SubmissionBox";
 import GoogleMapReact from "google-map-react";
-import MyMap from "./list-tracker/components/MyMap";
-import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { GoogleMap, MarkerF } from "@react-google-maps/api";
-import { Marker } from "@react-google-maps/api";
+import Marker from "google-maps-react-markers";
+import { MarkerF } from "@react-google-maps/api";
 
 const baseURL = "localhost:5173";
 
@@ -145,10 +142,7 @@ function App() {
                 center={defaultProps.center}
                 zoom={defaultProps.zoom}
               >
-                <div className="MyMap">
-                  <Marker position={defaultProps.center} visible={true} />
-                  {/* <MyMap lat={59.955412} lng={30.337844} text={"B"} /> */}
-                </div>
+                <Marker position={defaultProps.center} visible={true}></Marker>
               </GoogleMapReact>
             </div>
           </div>
