@@ -6,7 +6,7 @@ from . serializer import WebsiteSerializer
 from rest_framework.decorators import api_view
 from django.shortcuts import get_object_or_404
 import json
-# Create your views here.
+
 
 serializer_class = WebsiteSerializer
 
@@ -23,8 +23,11 @@ def zipDetail(request, pk):
     while (counter < len(newList)):
         latitude = str(newList[counter]["Latitude"])
         longitude = str(newList[counter]["Longitude"])
-        finalLatLng = ("lat={" + latitude + "} lng={" + longitude + "}")
-        finalLatLng_List.append(finalLatLng) 
+        lat = "{lat: "
+        lng = " lng: "
+        closebrack = "}"
+        finalLatLng = (lat + latitude + lng + longitude + closebrack)
+        finalLatLng_List.append(finalLatLng.strip('\'')) 
         counter += 1
     
     return Response(finalLatLng_List)

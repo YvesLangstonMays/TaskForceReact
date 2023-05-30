@@ -1,4 +1,9 @@
-import { GoogleMap, Marker, LoadScript, MarkerF } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  MarkerClustererF,
+  LoadScript,
+  MarkerF,
+} from "@react-google-maps/api";
 
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
@@ -11,12 +16,23 @@ const style = {
   height: "34vh",
   width: "96%",
 };
-const MapTracking = ({ passedComp }: any) => {
-  let dataList = new Array();
 
+function strToObj(e: any) {
+  var obj = new Function("return" + e);
+  return obj();
+}
+
+const MapTracking = ({ passedComp }: any) => {
+  console.log(passedComp[0]);
+  const dataList = [];
   dataList.push(passedComp);
-  dataList = dataList[0][0];
-  console.log(dataList);
+  const locations = [];
+  for (var i = 0; i < dataList[0][0].length; i++) {
+    let current = dataList[0][0][i];
+    current = strToObj(current);
+    locations.push(dataList[0][0][i]);
+  }
+  console.log(locations);
   const onLoad = (marker: any) => {
     console.log("marker: ", marker);
   };

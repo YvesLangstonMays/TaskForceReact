@@ -35,7 +35,7 @@ const SubmissionBox = () => {
     })
       .then((data) => data.json())
       .then((data) => {
-        console.log(data);
+        dataList.splice(0);
         dataList.push(data);
       })
       .catch((error) => console.log(error));
