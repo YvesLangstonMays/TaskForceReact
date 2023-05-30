@@ -27,7 +27,7 @@ def zipDetail(request, pk):
         lng = " lng: "
         closebrack = "}"
         finalLatLng = (lat + latitude + lng + longitude + closebrack)
-        finalLatLng_List.append(finalLatLng.strip('\'')) 
+        finalLatLng_List.append(finalLatLng.replace("'", "")) 
         counter += 1
     
     return Response(finalLatLng_List)

@@ -17,24 +17,12 @@ const style = {
   width: "96%",
 };
 
-function strToObj(e: any) {
-  var obj = new Function("return" + e);
-  return obj();
-}
-
 const MapTracking = ({ passedComp }: any) => {
   console.log(passedComp[0]);
-  const dataList = [];
-  dataList.push(passedComp);
-  const locations = [];
-  for (var i = 0; i < dataList[0][0].length; i++) {
-    let current = dataList[0][0][i];
-    current = strToObj(current);
-    locations.push(dataList[0][0][i]);
-  }
-  console.log(locations);
-  const onLoad = (marker: any) => {
-    console.log("marker: ", marker);
+  let dataList = Object.assign({}, passedComp[0]);
+  console.log(dataList);
+  const onLoad = () => {
+    console.log();
   };
   return (
     <div className="theMap">
