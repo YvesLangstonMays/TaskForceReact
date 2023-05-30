@@ -25,7 +25,12 @@ const MapTracking = ({ passedComp }: any) => {
           center={defaultProps.center}
           zoom={defaultProps.zoom}
         >
-          <MarkerF position={defaultProps.center}></MarkerF>
+          <MarkerF
+            position={defaultProps.center}
+            icon={
+              "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+            }
+          ></MarkerF>
         </GoogleMapReact>
       </div>
     </div>

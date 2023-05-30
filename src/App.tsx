@@ -1,15 +1,8 @@
-import MapTracking from "./list-tracker/components/MapTracking";
-import SubmissionBox from "./list-tracker/components/SubmissionBox";
+import SubmissionBox from "./trackers/components/SubmissionBox";
 
 const baseURL = "localhost:5173";
 
 function App() {
-  interface mapPropTypes {
-    center: [];
-    zoom: number;
-    desiredCoords: any;
-  }
-
   return (
     <>
       <div className="bodyDiv">
