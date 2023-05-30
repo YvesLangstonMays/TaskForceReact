@@ -1,38 +1,32 @@
-import GoogleMapReact from "google-map-react";
-import { MarkerF } from "@react-google-maps/api";
+import { GoogleMap, Marker, LoadScript, MarkerF } from "@react-google-maps/api";
 
+const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+
+const center = {
+  lat: 29.7377637,
+  lng: -95.3328939,
+};
+
+const style = {
+  height: "34vh",
+  width: "96%",
+};
 const MapTracking = ({ passedComp }: any) => {
-  const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
   let dataList = new Array();
-  const defaultProps = {
-    center: {
-      lat: 29.7377637,
-      lng: -95.3328939,
-    },
-    zoom: 9,
-  };
+
   dataList.push(passedComp);
   dataList = dataList[0][0];
   console.log(dataList);
-  //   console.log(passedComp[indexes]);
-
+  const onLoad = (marker: any) => {
+    console.log("marker: ", marker);
+  };
   return (
-    <div>
-      <div className="theMap" style={{ height: "36vh", width: "90%" }}>
-        isLoaded &&
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: API_Key }}
-          center={defaultProps.center}
-          zoom={defaultProps.zoom}
-        >
-          <MarkerF
-            position={defaultProps.center}
-            icon={
-              "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
-            }
-          ></MarkerF>
-        </GoogleMapReact>
-      </div>
+    <div className="theMap">
+      <LoadScript googleMapsApiKey={API_Key}>
+        <GoogleMap mapContainerStyle={style} zoom={9} center={center}>
+          <MarkerF onLoad={onLoad} position={center} />
+        </GoogleMap>
+      </LoadScript>
     </div>
   );
 };
