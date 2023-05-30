@@ -121,7 +121,6 @@ function App() {
           </div>
           <div className="zipbox">
             <SubmissionBox />
-            <MapTracking />
           </div>
         </div>
       </div>

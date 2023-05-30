@@ -42,26 +42,28 @@ const SubmissionBox = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      <div className="mb-3">
+    <>
+      <form onSubmit={handleSubmit(onSubmit)}>
         <MapTracking passedComp={dataList} />
-        <label htmlFor="zipCode" className="form-label">
-          Zipcode
-        </label>
-        <input
-          {...register("zipCode", { valueAsNumber: true })}
-          id="zipCode"
-          type="number"
-          className="form-control"
-        />
+        <div className="mb-3">
+          <label htmlFor="zipCode" className="form-label">
+            Zipcode
+          </label>
+          <input
+            {...register("zipCode", { valueAsNumber: true })}
+            id="zipCode"
+            type="number"
+            className="form-control"
+          />
 
-        {errors.zipCode && <p>{errors.zipCode.message}</p>}
+          {errors.zipCode && <p>{errors.zipCode.message}</p>}
 
-        <button disabled={!isValid} className="btn btn-primary" type="submit">
-          Submit
-        </button>
-      </div>
-    </form>
+          <button disabled={!isValid} className="btn btn-primary" type="submit">
+            Submit
+          </button>
+        </div>
+      </form>
+    </>
   );
 };
 
