@@ -1,0 +1,53 @@
+{
+  "name": "taskforcereact",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.1.0",
+    "@react-google-maps/api": "^2.18.1",
+    "@types/google.maps": "^3.53.1",
+    "@types/json-schema": "^7.0.11",
+    "@types/prop-types": "^15.7.5",
+    "@types/react-addons-shallow-compare": "^0.14.22",
+    "axios": "^1.4.0",
+    "bootstrap": "^5.2.3",
+    "google-map-react": "^2.2.1",
+    "mapbox-gl": "^2.14.1",
+    "react": "^18.1.0",
+    "react-addons-shallow-compare": "^15.6.3",
+    "react-dom": "^18.1.0",
+    "react-hook-form": "^7.43.9",
+    "react-is": "^16.13.1",
+    "react-map-gl": "^7.0.23",
+    "react-pure-render": "^1.0.2",
+    "react.pure.component": "^1.2.0",
+    "styled-components": "^5.3.10",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "@types/faker": "^6.6.9",
+    "@types/google-map-react": "^2.1.7",
+    "@types/node": "^20.1.4",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "browser-sync": "^2.29.1",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "faker": "^5.5.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  }
+}

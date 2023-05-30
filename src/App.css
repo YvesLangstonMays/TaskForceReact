@@ -1,0 +1,125 @@
+/* @font-face {
+	font-family: ;
+	src: url("") format("");
+	font-weight: normal;
+	font-style: normal;
+	font-display: auto;
+} */
+
+
+.bodyDiv{
+	background-color: rgb(13, 13, 12);
+	height: 1900px;
+	width: 1900px;
+}
+
+.MyMap
+{
+  position: fixed;
+  width: 40;
+  height: 40;
+  left: -40 / 2;
+  top: 40 / 2;
+
+  border: 5px solid #f44336;
+  border-radius: 40;
+  background-color: white;
+  text-align: center;
+  color: #3f51b5;
+  font-size: 16;
+  font-size: small;
+  padding: 4
+}
+
+.mainDiv 
+{
+  /* background-color: #C05800; */
+  background-image: linear-gradient(#2f5b38, #1d8f33 );
+  border: 15px solid #a0930a;
+  border-radius: 15px;
+  height:700px;
+  width: 1500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+    /* overflow: hidden; Hide scrollbars */
+}
+
+.theMap
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+.tff
+{
+	float: right;
+    width: 150px;
+    border-radius: 10px;
+} 
+
+.twc
+{
+	float: left;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.zipbox
+{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+  left: 26%;
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+
+.text 
+{
+	font-family: "Yanone Kaffeesatz";
+	font-size: 50px;
+	display: flex;
+	position: absolute;
+	justify-content:flex-start;
+	height: 0;
+  	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	user-select: none;
+
+	.wrapper {
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		.letter {
+			transition: ease-out 1s;
+			transform: translateY(40%);
+		}
+		.shadow {
+			transform: scale(1, -1);
+			color: #F2E8CF;
+			transition: ease-in 5s, ease-out 5s;
+		}
+		&:hover {
+			.letter {
+				transform: translateY(-200%);
+			}
+			.shadow {
+				opacity: 0;
+				transform: translateY(200%);
+			}
+		}
+	}
+}
