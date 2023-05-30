@@ -1,7 +1,6 @@
 import SubmissionBox from "./list-tracker/components/SubmissionBox";
 import GoogleMapReact from "google-map-react";
-import Marker from "google-maps-react-markers";
-import { MarkerF } from "@react-google-maps/api";
+import { MarkerF, Marker } from "@react-google-maps/api";
 
 const baseURL = "localhost:5173";
 
@@ -16,8 +15,8 @@ function App() {
 
   const defaultProps = {
     center: {
-      lat: 29.857629892,
-      lng: -95.393115648,
+      lat: 29.7377637,
+      lng: -95.3328939,
     },
     zoom: 9,
   };
@@ -142,7 +141,12 @@ function App() {
                 center={defaultProps.center}
                 zoom={defaultProps.zoom}
               >
-                <Marker position={defaultProps.center} visible={true}></Marker>
+                <MarkerF
+                  position={defaultProps.center}
+                  icon={
+                    "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png"
+                  }
+                ></MarkerF>
               </GoogleMapReact>
             </div>
           </div>

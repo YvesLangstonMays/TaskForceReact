@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "github:googlemaps/js-api-loader",
     "@hookform/resolvers": "^3.1.0",
     "@react-google-maps/api": "^2.18.1",
-    "@types/google.maps": "^3.53.1",
     "@types/json-schema": "^7.0.11",
     "@types/prop-types": "^15.7.5",
     "@types/react-addons-shallow-compare": "^0.14.22",
@@ -36,6 +36,7 @@
     "@faker-js/faker": "^8.0.1",
     "@types/faker": "^6.6.9",
     "@types/google-map-react": "^2.1.7",
+    "@types/google.maps": "^3.53.2",
     "@types/node": "^20.1.4",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
