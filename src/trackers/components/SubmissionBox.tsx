@@ -30,6 +30,7 @@ const SubmissionBox = () => {
     const newData = data["zipCode"].toString();
     const theURL = "http://127.0.0.1:8000/getaddress/";
     const urlToFetch = `${theURL}${newData}`;
+
     fetch(urlToFetch, {
       method: "GET",
     })

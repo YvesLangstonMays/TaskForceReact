@@ -19,6 +19,14 @@ function MapTracking({ passedComp }: any) {
     lng: 1,
   });
 
+  const [locations, setLocations] = useState([]);
+
+  useEffect(() => {
+    setLocations(passedComp[0]);
+  });
+
+  console.log(locations);
+
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position: GeolocationPosition) => {
