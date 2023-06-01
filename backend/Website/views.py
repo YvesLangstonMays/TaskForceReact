@@ -17,15 +17,15 @@ def zipDetail(request, pk):
     newList = (json.dumps(serializer.data))
     newList = json.loads(newList)
     print(newList)
-    print("\n")
-    finalLatLng_List = []
-    counter = 0
-    while (counter < len(newList)):
-        latitude = str(newList[counter]["Latitude"])
-        longitude = str(newList[counter]["Longitude"])
-        finalLatLng = (latitude + "," + longitude ) 
-        finalLatLng_List.append(finalLatLng)
-        finalLatLng_List = [item.replace("'", '') for item in finalLatLng_List]
-        counter += 1
+    # print("\n")
+    # finalLatLng_List = []
+    # counter = 0
+    # while (counter < len(newList)):
+    #     latitude = str(newList[counter]["Latitude"])
+    #     longitude = str(newList[counter]["Longitude"])
+    #     finalLatLng = ("lat: " + latitude + "," + "lng: " + longitude ) 
+    #     finalLatLng_List.append(finalLatLng)
+    #     finalLatLng_List = [item.replace("'", '') for item in finalLatLng_List]
+    #     counter += 1
     
-    return Response(finalLatLng_List)
+    return Response(newList)

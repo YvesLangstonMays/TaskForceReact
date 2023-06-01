@@ -1,4 +1,10 @@
-import { GoogleMap, LoadScript, MarkerF } from "@react-google-maps/api";
+import {
+  GoogleMap,
+  LoadScript,
+  MarkerClustererF,
+  MarkerF,
+} from "@react-google-maps/api";
+import { Clusterer } from "@react-google-maps/marker-clusterer";
 import { useEffect, useState } from "react";
 
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -19,12 +25,19 @@ function MapTracking({ passedComp }: any) {
     lng: 1,
   });
 
-  const [locations, setLocations] = useState([]);
+  // Marker set will be used to create a MarkerCluster created from looping through the value pairs
+  // in passedComp
+  const [markerSet, setMarkerSet] = useState([
+    {
+      lat: 1,
+      lng: 1,
+    },
+  ]);
 
-  useEffect(() => {
-    setLocations(passedComp[0]);
+  const locations = passedComp.map((val: { [x: string]: any }) => {
+    let latlngList = { lat: val["Latitude"], lng: val["Longitude"] };
+    return latlngList;
   });
-
   console.log(locations);
 
   useEffect(() => {
@@ -37,13 +50,31 @@ function MapTracking({ passedComp }: any) {
       }
     );
   }, []);
+
   const onLoad = () => {};
+
+  function createKey(location: { lat: any; lng: any }) {
+    return location.lat + location.lng;
+  }
 
   return (
     <div className="theMap">
       <LoadScript googleMapsApiKey={API_Key}>
-        <GoogleMap mapContainerStyle={style} zoom={9} center={center}>
-          <MarkerF onLoad={onLoad} position={userLocation} />
+        <GoogleMap mapContainerStyle={style} zoom={9} center={userLocation}>
+          {/* <MarkerF onLoad={onLoad} position={userLocation} /> */}
+          <MarkerClustererF>
+            {(clusterer) =>
+              locations.map(
+                (location: google.maps.LatLng | google.maps.LatLngLiteral) => (
+                  <MarkerF
+                    key={createKey(location)}
+                    position={location}
+                    clusterer={clusterer}
+                  />
+                )
+              )
+            }
+          </MarkerClustererF>
         </GoogleMap>
       </LoadScript>
     </div>

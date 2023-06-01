@@ -2,6 +2,7 @@ import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import MapTracking from "./MapTracking";
+import { useEffect, useState } from "react";
 
 const schema = z.object({
   zipCode: z
@@ -17,9 +18,11 @@ const schema = z.object({
 });
 
 type FormData = z.infer<typeof schema>;
-let dataList = new Array();
 
 const SubmissionBox = () => {
+  const [dataList, setDataList] = useState([]);
+
+  // I need to move passedComp into a hook so that it us updated
   const {
     register,
     handleSubmit,
@@ -36,9 +39,8 @@ const SubmissionBox = () => {
     })
       .then((data) => data.json())
       .then((data) => {
-        dataList.splice(0);
-        dataList.push(data);
-        console.log(data);
+        setDataList(data);
+        console.log(dataList);
       })
       .catch((error) => console.log(error));
   };
@@ -46,7 +48,7 @@ const SubmissionBox = () => {
   return (
     <>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <MapTracking passedComp={dataList} />
+        {dataList && <MapTracking passedComp={dataList} />}
         <div className="mb-3">
           <label htmlFor="zipCode" className="form-label">
             Zipcode
