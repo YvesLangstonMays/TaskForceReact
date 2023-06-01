@@ -13,11 +13,6 @@ const style = {
   width: "96%",
 };
 
-// const center = {
-//   lat: 29.7377637,
-//   lng: -95.3328939,
-// };
-
 function MapTracking({ passedComp }: any) {
   const [userLocation, setUserLocation] = useState({
     lat: 1,
@@ -56,8 +51,8 @@ function MapTracking({ passedComp }: any) {
   return (
     <div className="theMap">
       <LoadScript googleMapsApiKey={API_Key}>
-        <GoogleMap mapContainerStyle={style} zoom={9} center={userLocation}>
-          {/* <MarkerF onLoad={onLoad} position={userLocation} /> */}
+        <GoogleMap mapContainerStyle={style} zoom={5} center={userLocation}>
+          <MarkerF position={userLocation} />
           <MarkerClustererF>
             {(clusterer) =>
               locations.map(

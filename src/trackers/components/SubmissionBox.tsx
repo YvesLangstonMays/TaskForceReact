@@ -2,7 +2,7 @@ import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import MapTracking from "./MapTracking";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const schema = z.object({
   zipCode: z
