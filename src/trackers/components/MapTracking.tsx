@@ -4,7 +4,6 @@ import {
   MarkerClustererF,
   MarkerF,
 } from "@react-google-maps/api";
-import { Clusterer } from "@react-google-maps/marker-clusterer";
 import { useEffect, useState } from "react";
 
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
@@ -14,10 +13,10 @@ const style = {
   width: "96%",
 };
 
-const center = {
-  lat: 29.7377637,
-  lng: -95.3328939,
-};
+// const center = {
+//   lat: 29.7377637,
+//   lng: -95.3328939,
+// };
 
 function MapTracking({ passedComp }: any) {
   const [userLocation, setUserLocation] = useState({
@@ -25,19 +24,18 @@ function MapTracking({ passedComp }: any) {
     lng: 1,
   });
 
-  // Marker set will be used to create a MarkerCluster created from looping through the value pairs
-  // in passedComp
-  const [markerSet, setMarkerSet] = useState([
-    {
-      lat: 1,
-      lng: 1,
-    },
-  ]);
-
   const locations = passedComp.map((val: { [x: string]: any }) => {
-    let latlngList = { lat: val["Latitude"], lng: val["Longitude"] };
+    let latlngList = {
+      lat: val["Latitude"],
+      lng: val["Longitude"],
+      siteName: val["Site_Name"],
+      address: val["Address_1"],
+      city: val["City"],
+      county: val["County"],
+    };
     return latlngList;
   });
+
   console.log(locations);
 
   useEffect(() => {
@@ -50,8 +48,6 @@ function MapTracking({ passedComp }: any) {
       }
     );
   }, []);
-
-  const onLoad = () => {};
 
   function createKey(location: { lat: any; lng: any }) {
     return location.lat + location.lng;
