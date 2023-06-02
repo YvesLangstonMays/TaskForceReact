@@ -13,7 +13,7 @@ const style = {
   width: "96%",
 };
 
-function MapTracking({ passedComp }: any) {
+function MapComponent({ passedComp }: any) {
   const [userLocation, setUserLocation] = useState({
     lat: 1,
     lng: 1,
@@ -72,4 +72,4 @@ function MapTracking({ passedComp }: any) {
   );
 }
 
-export default MapTracking;
+export default MapComponent;

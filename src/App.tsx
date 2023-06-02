@@ -1,5 +1,4 @@
-import SubmissionBox from "./trackers/components/SubmissionBox";
-
+import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
 function App() {
   return (
     <>
@@ -111,7 +110,7 @@ function App() {
             <img src="src/images/task force final.png" className="tff" />
           </div>
           <div className="zipbox">
-            <SubmissionBox />
+            <ZipCodeEntry />
           </div>
         </div>
       </div>
