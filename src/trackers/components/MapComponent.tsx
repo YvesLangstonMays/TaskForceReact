@@ -63,7 +63,7 @@ function MapComponent({ passedComp }: any) {
     <div className="theMap">
       <LoadScript googleMapsApiKey={API_Key}>
         <GoogleMap mapContainerStyle={style} zoom={5} center={userLocation}>
-          <MarkerF position={userLocation} />
+          <MarkerF position={userLocation} label={"You"} />
           <MarkerClustererF>
             {(clusterer) =>
               locations.map(

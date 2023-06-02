@@ -173,7 +173,7 @@
 			transform: translateY(40%);
 		}
 		.shadow {
-			animation: transitionIn 6.91s;
+			animation: transitionIn 4.91s;
 			transform: scale(1, -1);
 			color: #F2E8CF;
 			transition: ease-in 5s, ease-out 5s;
