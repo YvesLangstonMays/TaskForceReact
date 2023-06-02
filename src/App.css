@@ -1,26 +1,77 @@
-/* @font-face {
-	font-family: ;
-	src: url("") format("");
-	font-weight: normal;
-	font-style: normal;
-	font-display: auto;
-} */
 
+
+@keyframes transitionIn {
+	from 
+	{
+		
+		transform: translateY(0);
+	}
+
+	to 
+	{
+		
+		transform: translateY(50);
+	}
+}
+
+@keyframes transitionLetter {
+	from
+	{
+		transform: translateY(0);
+
+	}
+
+	to 
+	{
+		transform: translateY(-200);
+	}
+}
+
+@keyframes transitionInMainDiv {
+	from 
+	{
+		height: 0%;
+		width: 0%;
+		
+	}
+
+	to 
+	{
+		height: 100%;
+		width: 100%;
+	}
+}
+
+
+
+.html, body{
+	overflow: scroll;
+	background-color: black;
+	
+	
+}
 
 .bodyDiv{
-	background-color: rgb(13, 13, 12);
-	height: 1900px;
-	width: 1900px;
+	animation: transitionInMainDiv 4s;
+	position: absolute;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	margin-right: 40px;
+	
+	
+	
 }
 
 .MyMap
 {
-  position: fixed;
-  width: 40;
-  height: 40;
+  position: absolute;
+  width: 40%;
+  height: 40%;
   left: -40 / 2;
   top: 40 / 2;
-
   border: 5px solid #f44336;
   border-radius: 40;
   background-color: white;
@@ -28,23 +79,30 @@
   color: #3f51b5;
   font-size: 16;
   font-size: small;
-  padding: 4
+  padding: 4;
+  
+  
+  
 }
 
 .mainDiv 
 {
   /* background-color: #C05800; */
+  transform: translateZ(42px);
   background-image: linear-gradient(#2f5b38, #1d8f33 );
   border: 15px solid #a0930a;
   border-radius: 15px;
-  height:700px;
+  height:900px;
   width: 1500px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow-x: hidden;
+	overflow-y: hidden;
+	
+	
 
-    /* overflow: hidden; Hide scrollbars */
 }
 
 .theMap
@@ -56,7 +114,11 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-	margin: auto;
+	margin: 0;
+	overflow:auto;
+	float: inline-start;
+	box-sizing: border-box;	
+	
 }
 
 .tff
@@ -83,11 +145,13 @@
   width: 50%;
   margin: 0;
   text-align: center;
+  
 }
 
 
 .text 
 {
+	
 	font-family: "Yanone Kaffeesatz";
 	font-size: 50px;
 	display: flex;
@@ -100,6 +164,7 @@
 	user-select: none;
 
 	.wrapper {
+		
 		padding-left: 10px;
 		padding-right: 10px;
 		padding-top: 5px;
@@ -108,9 +173,13 @@
 			transform: translateY(40%);
 		}
 		.shadow {
+			animation: transitionIn 6.91s;
 			transform: scale(1, -1);
 			color: #F2E8CF;
 			transition: ease-in 5s, ease-out 5s;
+		}
+		.letter{
+			animation: transitionLetter 5.91s;
 		}
 		&:hover {
 			.letter {

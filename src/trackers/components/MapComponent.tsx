@@ -7,6 +7,8 @@ import {
 import { useEffect, useState } from "react";
 
 // GOALS
+// Create an animation that flips the map over into a table that can be used for the below step
+// 1. Add table below that allows selection by county, zip. Make sure the table is below the map
 // 1. When a new submit is made, the center must be on or nearby the newly generated markers
 // 2. Add InfoWindows to markers that show the site name and address
 // 3. Add functionality to find nearest locations given a zip code
@@ -16,8 +18,8 @@ import { useEffect, useState } from "react";
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const style = {
-  height: "34vh",
-  width: "96%",
+  height: "30rem",
+  width: "100%",
 };
 
 function MapComponent({ passedComp }: any) {

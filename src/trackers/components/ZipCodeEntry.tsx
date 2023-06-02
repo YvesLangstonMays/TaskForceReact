@@ -41,6 +41,11 @@ const ZipCodeEntry = () => {
       .then((data) => {
         setDataList(data);
         console.log(dataList);
+        if (dataList.length == 0) {
+          alert(
+            "No sites found in this zipcode. Please try a different zipcode.\n\n\nNo se encontró ninguna ubicación. Intente con un código postal diferente."
+          );
+        }
       })
       .catch((error) => console.log(error));
   };
@@ -51,7 +56,7 @@ const ZipCodeEntry = () => {
         {dataList && <MapComponent passedComp={dataList} />}
         <div className="mb-3">
           <label htmlFor="zipCode" className="form-label">
-            Zipcode
+            Zipcode/Postal
           </label>
           <input
             {...register("zipCode", { valueAsNumber: true })}
