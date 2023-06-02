@@ -5,9 +5,8 @@ function App() {
   return (
     <>
       <div className="bodyDiv">
-        <div className="nav">
-          <NavBar></NavBar>
-        </div>
+        <NavBar></NavBar>
+        <div className="nav"></div>
         <div className="mainDiv">
           <div className="text">
             <div className="wrapper">
@@ -109,7 +108,6 @@ function App() {
               <div className="shadow">S</div>
             </div>
           </div>
-
           <div className="logosDiv">
             <img src="src/images/twc final.png" className="twc" />
             <img src="src/images/task force final.png" className="tff" />

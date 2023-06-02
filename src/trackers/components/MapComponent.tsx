@@ -8,6 +8,7 @@ import { useEffect, useState } from "react";
 
 // GOALS
 // Create an animation that flips the map over into a table that can be used for the below step
+// 1 - H
 // 1. Add table below that allows selection by county, zip. Make sure the table is below the map
 // 1. When a new submit is made, the center must be on or nearby the newly generated markers
 // 2. Add InfoWindows to markers that show the site name and address

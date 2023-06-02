@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavBar = () => {
   return (
     <nav className="nav">
@@ -8,7 +6,7 @@ const NavBar = () => {
       </a>
       <ul>
         <li>
-          <a href="/Map">Map Search</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="/List">List Search</a>
