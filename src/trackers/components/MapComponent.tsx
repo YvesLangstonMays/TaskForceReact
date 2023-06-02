@@ -3,9 +3,15 @@ import {
   LoadScript,
   MarkerClustererF,
   MarkerF,
-  // InfoWindowF,
 } from "@react-google-maps/api";
 import { useEffect, useState } from "react";
+
+// GOALS
+// 1. When a new submit is made, the center must be on or nearby the newly generated markers
+// 2. Add InfoWindows to markers that show the site name and address
+// 3. Add functionality to find nearest locations given a zip code
+// 4. Center the main div
+// 5. Change colors and add effects so when the page opens everything fades in from black and moves closer along the Z axis
 
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
