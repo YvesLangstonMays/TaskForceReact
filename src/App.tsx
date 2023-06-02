@@ -1,9 +1,13 @@
+import NavBar from "./trackers/components/NavBar";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
 
 function App() {
   return (
     <>
       <div className="bodyDiv">
+        <div className="nav">
+          <NavBar></NavBar>
+        </div>
         <div className="mainDiv">
           <div className="text">
             <div className="wrapper">
