@@ -1,10 +1,10 @@
 interface Props {
   homeClick?: () => void;
-  searchClick?: () => void;
+  listClick?: () => void;
   instructionClick?: () => void;
 }
 
-const NavBar = ({ homeClick, searchClick, instructionClick }: Props) => {
+const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
   return (
     <>
       <nav className="nav">
@@ -18,7 +18,7 @@ const NavBar = ({ homeClick, searchClick, instructionClick }: Props) => {
             </button>
           </li>
           <li>
-            <button className="btn btn-primary" onClick={searchClick}>
+            <button className="btn btn-primary" onClick={listClick}>
               List Search
             </button>
           </li>

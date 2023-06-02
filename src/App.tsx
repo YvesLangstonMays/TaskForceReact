@@ -1,26 +1,42 @@
+import { useEffect, useState } from "react";
 import NavBar from "./trackers/components/NavBar";
-import TransitionBox from "./trackers/components/TransitionBox";
+import HomeTransitionBox from "./trackers/components/HomeTransitionBox";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
 
-const homeClick = () => {
-  console.log("Home button pressed");
-};
-
-const searchClick = () => {
-  console.log("Search button pressed");
-};
-
-const instructionClick = () => {
-  console.log("Instruction button pressed");
-};
-
 function App() {
+  const [homeIsActive, setHomeIsActive] = useState(0);
+  const [listIsActive, setListIsActive] = useState(0);
+  const [instructionsActive, setInstructionsActive] = useState(0);
+
+  const homeClick = () => {
+    console.log("Home button pressed");
+    setListIsActive(0);
+    setInstructionsActive(0);
+    setHomeIsActive(1);
+    console.log("Home:", homeIsActive);
+  };
+
+  const listClick = () => {
+    console.log("List button pressed");
+    setInstructionsActive(0);
+    setHomeIsActive(0);
+    setListIsActive(1);
+    console.log("List:", listIsActive);
+  };
+
+  const instructionClick = () => {
+    console.log("Instruction button pressed");
+    setHomeIsActive(0);
+    setListIsActive(0);
+    setInstructionsActive(1);
+    console.log("Instructions:", instructionsActive);
+  };
   return (
     <>
       <div className="bodyDiv">
         <NavBar
           homeClick={homeClick}
-          searchClick={searchClick}
+          listClick={listClick}
           instructionClick={instructionClick}
         ></NavBar>
         <div className="nav"></div>
@@ -132,8 +148,10 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
-          <div className="theTransitionBox">
-            <TransitionBox></TransitionBox>
+          <div className="homeTransitionBox">
+            {homeIsActive && (
+              <HomeTransitionBox active={homeIsActive}></HomeTransitionBox>
+            )}
           </div>
         </div>
       </div>

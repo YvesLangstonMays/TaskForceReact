@@ -1,4 +1,8 @@
-const TransitionBox = () => {
+interface Props {
+  active: any;
+}
+
+const HomeTransitionBox = ({ active }: Props) => {
   return (
     <p>
       Database info goes here. A component will have to be add to display the
@@ -7,4 +11,4 @@ const TransitionBox = () => {
   );
 };
 
-export default TransitionBox;
+export default HomeTransitionBox;

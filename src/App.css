@@ -66,9 +66,7 @@
 	}
 }
 
-.theTransitionBox{
-	animation: transitionBox 1s;
-	animation-delay: 4s;
+.homeTransitionBox{
 	position: absolute;
 	z-index: 9;
 	position: ab;
@@ -78,6 +76,11 @@
 	
 }
 
+.homeTransitionBox[active='1']
+{
+	animation: transitionBox 1s;
+	animation-delay: 1s;
+}
 
 .site-title{
 	font-size: 2rem;
