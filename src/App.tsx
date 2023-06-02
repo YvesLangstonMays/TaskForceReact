@@ -12,7 +12,11 @@ function App() {
     console.log("Home button pressed");
     setListIsActive(0);
     setInstructionsActive(0);
-    setHomeIsActive(1);
+    if (homeIsActive == 1) {
+      setHomeIsActive(0);
+    } else {
+      setHomeIsActive(1);
+    }
     console.log("Home:", homeIsActive);
   };
 
@@ -148,10 +152,8 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
-          <div className="homeTransitionBox">
-            {homeIsActive && (
-              <HomeTransitionBox active={homeIsActive}></HomeTransitionBox>
-            )}
+          <div className="homeTransitionBox" data-active={homeIsActive}>
+            {homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
           </div>
         </div>
       </div>
