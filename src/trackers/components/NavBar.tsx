@@ -9,7 +9,11 @@ const NavBar = () => {
       <ul>
         <li>
           <a href="/Map">Map Search</a>
+        </li>
+        <li>
           <a href="/List">List Search</a>
+        </li>
+        <li>
           <a href="/Instructions">Instructions</a>
         </li>
       </ul>

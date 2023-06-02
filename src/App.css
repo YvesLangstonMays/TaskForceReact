@@ -42,9 +42,21 @@
 	}
 }
 
+@keyframes transitionNavBar {
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 100;
+	}
+}
+
 
 .nav {
-	background-color: #333;
+	animation: transitionNavBar 8s;
+	background-color: black;
 	color: white;
 	display: flex;
 	justify-content: space-between;
@@ -87,7 +99,7 @@
 	
 }
 
-.MyMap
+/* .MyMap
 {
   position: absolute;
   width: 40%;
@@ -105,7 +117,7 @@
   
   
   
-}
+} */
 
 .mainDiv 
 {
