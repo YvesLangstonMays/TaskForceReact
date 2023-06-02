@@ -67,15 +67,17 @@
 }
 
 .theTransitionBox{
+	animation: transitionBox 1s;
+	animation-delay: 4s;
 	position: absolute;
 	z-index: 9;
-	animation: transitionBox 5s;
-	animation-delay: 4s;
 	position: ab;
-	
-	background-color: black;
+	height: 0px;
+	width: 0px;
+	background-color: white;
 	
 }
+
 
 .site-title{
 	font-size: 2rem;

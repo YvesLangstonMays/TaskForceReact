@@ -1,11 +1,28 @@
 import NavBar from "./trackers/components/NavBar";
+import TransitionBox from "./trackers/components/TransitionBox";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
+
+const homeClick = () => {
+  console.log("Home button pressed");
+};
+
+const searchClick = () => {
+  console.log("Search button pressed");
+};
+
+const instructionClick = () => {
+  console.log("Instruction button pressed");
+};
 
 function App() {
   return (
     <>
       <div className="bodyDiv">
-        <NavBar></NavBar>
+        <NavBar
+          homeClick={homeClick}
+          searchClick={searchClick}
+          instructionClick={instructionClick}
+        ></NavBar>
         <div className="nav"></div>
         <div className="mainDiv">
           <div className="text">
@@ -115,7 +132,9 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
-          <div className="theTransitionBox"></div>
+          <div className="theTransitionBox">
+            <TransitionBox></TransitionBox>
+          </div>
         </div>
       </div>
     </>

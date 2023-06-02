@@ -25,6 +25,7 @@
     "google-map-react": "^2.2.1",
     "google-maps-react-markers": "^1.2.3",
     "mapbox-gl": "^2.14.1",
+    "mdb-react-ui-kit": "^6.1.0",
     "react": "^18.1.0",
     "react-addons-shallow-compare": "^15.6.3",
     "react-dom": "^18.1.0",
