@@ -115,6 +115,7 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
+          <div className="theTransitionBox"></div>
         </div>
       </div>
     </>

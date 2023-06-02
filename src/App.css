@@ -41,7 +41,6 @@
 		width: 100%;
 	}
 }
-
 @keyframes transitionNavBar {
 	from
 	{
@@ -52,12 +51,36 @@
 		opacity: 100;
 	}
 }
+@keyframes transitionBox {
+	from
+	{
+		width: 0%;
+		height: 0%;
+		opacity: 0;
+	}
+	to
+	{
+		width: 100%;
+		height: 100%;
+		opacity: 100;
+	}
+}
+
+.theTransitionBox{
+	position: absolute;
+	z-index: 9;
+	animation: transitionBox 5s;
+	animation-delay: 4s;
+	position: ab;
+	
+	background-color: black;
+	
+}
 
 .site-title{
 	font-size: 2rem;
 	color: #f44336;
 }
-
 
 .nav {
 	animation: transitionNavBar 8s;
@@ -95,9 +118,6 @@
 
 }
 
-
-
-
 .html, body{
 	overflow: scroll;
 	background-color: black;
@@ -114,35 +134,10 @@
 	overflow-x: hidden;
 	overflow-y: hidden;
 	margin-right: 40px;
-	
-	
-	
 }
-
-/* .MyMap
-{
-  position: absolute;
-  width: 40%;
-  height: 40%;
-  left: -40 / 2;
-  top: 40 / 2;
-  border: 5px solid #f44336;
-  border-radius: 40;
-  background-color: white;
-  text-align: center;
-  color: #3f51b5;
-  font-size: 16;
-  font-size: small;
-  padding: 4;
-  
-  
-  
-} */
 
 .mainDiv 
 {
-  /* background-color: #C05800; */
-  transform: translateZ(42px);
   background-image: linear-gradient(#2f5b38, #1d8f33 );
   border: 15px solid #a0930a;
   border-radius: 15px;
