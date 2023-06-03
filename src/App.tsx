@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import NavBar from "./trackers/components/NavBar";
 import HomeTransitionBox from "./trackers/components/HomeTransitionBox";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
@@ -6,38 +6,27 @@ import ListTransitionBox from "./trackers/components/ListTransitionBox";
 
 function App() {
   const [homeIsActive, setHomeIsActive] = useState(0);
+
   const [listIsActive, setListIsActive] = useState(0);
+
   const [instructionsActive, setInstructionsActive] = useState(0);
-  const [inactivateList, setInactivateList] = useState(0);
-  const [inactivateHome, setInactivateHome] = useState(0);
 
   const homeClick = () => {
-    setHomeIsActive(1);
-
-    console.log("Home button pressed");
-    setListIsActive(0);
-    setInstructionsActive(0);
-
     console.log("Home:", homeIsActive);
-  };
-  const activateList = () => {
-    setListIsActive(1);
-    setInactivateList(0);
-    setHomeIsActive(0);
-    setInactivateHome(1);
-  };
-
-  const deactivateList = () => {
-    setListIsActive(0);
-    setInactivateList(1);
   };
 
   const listClick = () => {
-    if (listIsActive == 1) {
-      deactivateList();
-    } else if (listIsActive == 0) {
-      activateList();
+    console.log("List button pressed");
+    if (listIsActive == 0) {
+      setListIsActive(1);
+    } else {
+      setListIsActive(0);
     }
+    console.log("List:", listIsActive);
+  };
+
+  const listClickTimer = () => {
+    setTimeout(listClick, 1000);
   };
 
   const instructionClick = () => {
@@ -52,41 +41,47 @@ function App() {
       <div className="bodyDiv">
         <NavBar
           homeClick={homeClick}
-          listClick={listClick}
+          listClick={listClickTimer}
           instructionClick={instructionClick}
         ></NavBar>
         <div className="nav"></div>
         <div className="mainDiv">
           <div className="text">
             <div className="wrapper">
-              <div id="T" className="letter">
-                T
+              <div id="C" className="letter">
+                C
               </div>
-              <div className="shadow">T</div>
+              <div className="shadow">C</div>
             </div>
             <div className="wrapper">
               <div id="E" className="letter">
-                E
+                L
               </div>
-              <div className="shadow">E</div>
+              <div className="shadow">L</div>
             </div>
             <div className="wrapper">
               <div id="X" className="letter">
-                X
+                I
               </div>
-              <div className="shadow">X</div>
+              <div className="shadow">I</div>
             </div>
             <div className="wrapper">
               <div id="A" className="letter">
-                A
+                N
               </div>
-              <div className="shadow">A</div>
+              <div className="shadow">N</div>
             </div>
             <div className="wrapper">
               <div id="S" className="letter">
-                S
+                I
               </div>
-              <div className="shadow">S</div>
+              <div className="shadow">I</div>
+            </div>
+            <div className="wrapper">
+              <div id="S" className="letter">
+                C
+              </div>
+              <div className="shadow">C</div>
             </div>
 
             <div className="wrapper">
@@ -95,54 +90,18 @@ function App() {
               </div>
               <div className="shadow"> </div>
             </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
 
             <div className="wrapper">
-              <div id="T" className="letter">
-                T
+              <div id="F" className="letter">
+                F
               </div>
-              <div className="shadow">T</div>
+              <div className="shadow">F</div>
             </div>
             <div className="wrapper">
-              <div id="E" className="letter">
-                E
+              <div id="I" className="letter">
+                I
               </div>
-              <div className="shadow">E</div>
-            </div>
-            <div className="wrapper">
-              <div id="E" className="letter">
-                E
-              </div>
-              <div className="shadow">E</div>
+              <div className="shadow">I</div>
             </div>
             <div className="wrapper">
               <div id="N" className="letter">
@@ -151,10 +110,22 @@ function App() {
               <div className="shadow">N</div>
             </div>
             <div className="wrapper">
-              <div id="S" className="letter">
-                S
+              <div id="D" className="letter">
+                D
               </div>
-              <div className="shadow">S</div>
+              <div className="shadow">D</div>
+            </div>
+            <div className="wrapper">
+              <div id="E" className="letter">
+                E
+              </div>
+              <div className="shadow">E</div>
+            </div>
+            <div className="wrapper">
+              <div id="R" className="letter">
+                R
+              </div>
+              <div className="shadow">R</div>
             </div>
           </div>
           <div className="logosDiv">
@@ -164,14 +135,10 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
-          <div className="homeTransitionBox" data-active={listIsActive}>
-            {listIsActive && <HomeTransitionBox></HomeTransitionBox>}
+          <div className="homeTransitionBox" data-active={homeIsActive}>
+            {homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
           </div>
-          <div
-            className="ListTransitionBox"
-            data-inactivate={inactivateList}
-            data-active={listIsActive}
-          >
+          <div className="ListTransitionBox" data-active={listIsActive}>
             {listIsActive && <ListTransitionBox></ListTransitionBox>}
           </div>
         </div>

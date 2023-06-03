@@ -88,17 +88,17 @@
 	background-color: white;
 	width: 100%;
 	height: 100%;
-	animation: transitionBox 1s;
+	animation: transitionBox 0.9s;
 }
 
-.ListTransitionBox[data-inactive="1"]
+.ListTransitionBox[data-active="0"]
 {
 	position: absolute;
 	z-index: 9;
 	background-color: white;
 	width: 0%;
 	height: 0%;
-	animation: transitionBoxExit 1s;
+	animation: transitionBoxExit 0.5s;
 }
 
 .site-title{
