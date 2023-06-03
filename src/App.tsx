@@ -1,9 +1,9 @@
 import { useState } from "react";
-import NavBar from "./trackers/components/NavBar";
-import HomeTransitionBox from "./trackers/components/HomeTransitionBox";
-import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
-import ListTransitionBox from "./trackers/components/ListTransitionBox";
-import InstructionsTransitionBox from "./trackers/components/InstructionsTransitionBox";
+import NavBar from "./components/NavBar";
+import HomeTransitionBox from "./components/HomeTransitionBox";
+import ZipCodeEntry from "./components/ZipCodeEntry";
+import ListTransitionBox from "./components/ListTransitionBox";
+import InstructionsTransitionBox from "./components/InstructionsTransitionBox";
 
 function App() {
   const [homeIsActive, setHomeIsActive] = useState(0);
