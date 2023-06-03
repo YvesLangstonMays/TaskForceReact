@@ -48,72 +48,10 @@ function App() {
         <div className="mainDiv">
           <div className="text">
             <div className="wrapper">
-              <div id="C" className="letter">
-                C
-              </div>
-              <div className="shadow">C</div>
-            </div>
-            <div className="wrapper">
-              <div id="E" className="letter">
-                L
-              </div>
-              <div className="shadow">L</div>
-            </div>
-            <div className="wrapper">
-              <div id="X" className="letter">
-                I
-              </div>
-              <div className="shadow">I</div>
-            </div>
-            <div className="wrapper">
-              <div id="A" className="letter">
-                N
-              </div>
-              <div className="shadow">N</div>
-            </div>
-            <div className="wrapper">
-              <div id="S" className="letter">
-                I
-              </div>
-              <div className="shadow">I</div>
-            </div>
-            <div className="wrapper">
-              <div id="S" className="letter">
-                C
-              </div>
-              <div className="shadow">C</div>
-            </div>
-
-            <div className="wrapper">
               <div id="T" className="letter">
-                {" "}
+                T
               </div>
-              <div className="shadow"> </div>
-            </div>
-
-            <div className="wrapper">
-              <div id="F" className="letter">
-                F
-              </div>
-              <div className="shadow">F</div>
-            </div>
-            <div className="wrapper">
-              <div id="I" className="letter">
-                I
-              </div>
-              <div className="shadow">I</div>
-            </div>
-            <div className="wrapper">
-              <div id="N" className="letter">
-                N
-              </div>
-              <div className="shadow">N</div>
-            </div>
-            <div className="wrapper">
-              <div id="D" className="letter">
-                D
-              </div>
-              <div className="shadow">D</div>
+              <div className="shadow">T</div>
             </div>
             <div className="wrapper">
               <div id="E" className="letter">
@@ -122,10 +60,90 @@ function App() {
               <div className="shadow">E</div>
             </div>
             <div className="wrapper">
-              <div id="R" className="letter">
-                R
+              <div id="X" className="letter">
+                X
               </div>
-              <div className="shadow">R</div>
+              <div className="shadow">X</div>
+            </div>
+            <div className="wrapper">
+              <div id="A" className="letter">
+                A
+              </div>
+              <div className="shadow">A</div>
+            </div>
+            <div className="wrapper">
+              <div id="S" className="letter">
+                S
+              </div>
+              <div className="shadow">S</div>
+            </div>
+
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+            <div className="wrapper">
+              <div id="T" className="letter">
+                {" "}
+              </div>
+              <div className="shadow"> </div>
+            </div>
+
+            <div className="wrapper">
+              <div id="T" className="letter">
+                T
+              </div>
+              <div className="shadow">T</div>
+            </div>
+            <div className="wrapper">
+              <div id="E" className="letter">
+                E
+              </div>
+              <div className="shadow">E</div>
+            </div>
+            <div className="wrapper">
+              <div id="E" className="letter">
+                E
+              </div>
+              <div className="shadow">E</div>
+            </div>
+            <div className="wrapper">
+              <div id="N" className="letter">
+                N
+              </div>
+              <div className="shadow">N</div>
+            </div>
+            <div className="wrapper">
+              <div id="S" className="letter">
+                S
+              </div>
+              <div className="shadow">S</div>
             </div>
           </div>
           <div className="logosDiv">
