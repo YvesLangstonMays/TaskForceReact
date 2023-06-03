@@ -1,7 +1,7 @@
 const InstructionsTransitionBox = () => {
   return (
     <div>
-      <div className="instructions">
+      <div className="instructionsDiv">
         <p id="instructionsPara">
           <br />
           To find a clinic nearby using the map, click the "Home" button in the

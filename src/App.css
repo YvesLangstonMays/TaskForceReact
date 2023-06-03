@@ -131,7 +131,19 @@
 
 }
 
-.instructions 
+
+.listDiv
+{
+
+}
+
+#listPara
+{
+
+}
+
+
+.instructionsDiv
 {
 	border-color: black;
 	background-image: linear-gradient(#2f5b38, #1d8f33 );
