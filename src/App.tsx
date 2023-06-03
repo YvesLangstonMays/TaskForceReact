@@ -9,6 +9,7 @@ function App() {
   const [listIsActive, setListIsActive] = useState(0);
   const [instructionsActive, setInstructionsActive] = useState(0);
   const [inactivateList, setInactivateList] = useState(0);
+  const [inactivateHome, setInactivateHome] = useState(0);
 
   const homeClick = () => {
     setHomeIsActive(1);
@@ -22,10 +23,21 @@ function App() {
   const activateList = () => {
     setListIsActive(1);
     setInactivateList(0);
+    setHomeIsActive(0);
+    setInactivateHome(1);
   };
+
+  const deactivateList = () => {
+    setListIsActive(0);
+    setInactivateList(1);
+  };
+
   const listClick = () => {
-    console.log("Inactivate list :", inactivateList);
-    console.log("List is active :", listIsActive);
+    if (listIsActive == 1) {
+      deactivateList();
+    } else if (listIsActive == 0) {
+      activateList();
+    }
   };
 
   const instructionClick = () => {
