@@ -40,7 +40,7 @@ const ZipCodeEntry = () => {
       .then((data) => data.json())
       .then((data) => {
         setDataList(data);
-        if (dataList.length == 0) {
+        if (data.length == 0) {
           alert(
             "No sites found in this zipcode. Please try a different zipcode.\n\n\nNo se encontró ninguna ubicación. Intente con un código postal diferente."
           );

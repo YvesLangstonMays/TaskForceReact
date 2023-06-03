@@ -35,8 +35,8 @@
 
 	to 
 	{
-		height: 100%;
-		width: 100%;
+		height: 900px;
+		width: 1500px;
 	}
 }
 @keyframes transitionNavBar {
@@ -80,6 +80,10 @@
 	}
 }
 
+.html, body{
+	overflow: scroll;
+	background-color: black;
+}
 
 .ListTransitionBox[data-active="1"]
 {
@@ -101,19 +105,78 @@
 	animation: transitionBoxExit 0.5s;
 }
 
+
+.InstructionsTransitionBox[data-active="1"]
+{
+	position: absolute;
+	z-index: 9;
+	background-image: linear-gradient(#2f5b38, #1d8f33 );
+	width: 100%;
+	height: 100%;
+	animation: transitionBox 0.9s;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.InstructionsTransitionBox[data-active="0"]
+{
+	position: absolute;
+	z-index: 9;
+	background-image: linear-gradient(#2f5b38, #1d8f33 );
+	width: 0%;
+	height: 0%;
+	animation: transitionBoxExit 0.5s;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.instructions 
+{
+	border-color: black;
+	background-image: linear-gradient(#2f5b38, #1d8f33 );
+	border-style:ridge;
+	border-radius: 15px;
+	padding: 20px;
+	border-width: 10px;
+	display: flex;
+	align-self: center;
+	margin-left: 20%;
+	margin-right: 25%;
+	margin-top: 2%;
+	height: 50%;
+	width: 60%;
+}
+
+#instructionsPara
+{
+	display: flex;
+	font-size: 35px;
+	color: white;
+	height: 50%;
+	justify-content: center;
+	align-self: center;
+}
+
+
 .site-title{
 	font-size: 2rem;
 	color: #f44336;
 }
 
 .nav {
-	animation: transitionNavBar 8s;
+	
 	background-color: black;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 2rem;
 	padding: 0 1rem;
+}
+
+.nav #listItem
+{
+	animation: transitionNavBar 8s;
 }
 
 .nav ul {
@@ -137,18 +200,11 @@
 
 .nav li.active{
 	background-color: #555;
-
 }
 
-.html, body{
-	overflow: scroll;
-	background-color: black;
-	
-	
-}
+
 
 .bodyDiv{
-	animation: transitionInMainDiv 4s;
 	position: absolute;
 	background-color: black;
 	height: 100%;
@@ -160,6 +216,8 @@
 
 .mainDiv 
 {
+	animation: transitionInMainDiv 4s;
+
   background-image: linear-gradient(#2f5b38, #1d8f33 );
   border: 15px solid #a0930a;
   border-radius: 15px;

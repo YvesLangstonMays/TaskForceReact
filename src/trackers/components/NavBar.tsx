@@ -8,22 +8,34 @@ const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
   return (
     <>
       <nav className="nav">
-        <a href="/" className="site-title">
+        <a href="/" className="site-title" id="listItem">
           Texas Teen Sexual Health Task Force
         </a>
         <ul>
           <li>
-            <button className="btn btn-primary" onClick={homeClick}>
+            <button
+              className="btn btn-primary"
+              id="listItem"
+              onClick={homeClick}
+            >
               Home
             </button>
           </li>
           <li>
-            <button className="btn btn-primary" onClick={listClick}>
+            <button
+              className="btn btn-primary"
+              id="listItem"
+              onClick={listClick}
+            >
               List Search
             </button>
           </li>
           <li>
-            <button className="btn btn-primary" onClick={instructionClick}>
+            <button
+              className="btn btn-primary"
+              id="listItem"
+              onClick={instructionClick}
+            >
               Instructions
             </button>
           </li>

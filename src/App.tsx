@@ -3,6 +3,7 @@ import NavBar from "./trackers/components/NavBar";
 import HomeTransitionBox from "./trackers/components/HomeTransitionBox";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
 import ListTransitionBox from "./trackers/components/ListTransitionBox";
+import InstructionsTransitionBox from "./trackers/components/InstructionsTransitionBox";
 
 function App() {
   const [homeIsActive, setHomeIsActive] = useState(0);
@@ -12,37 +13,61 @@ function App() {
   const [instructionsActive, setInstructionsActive] = useState(0);
 
   const homeClick = () => {
-    console.log("Home:", homeIsActive);
+    if (listIsActive == 1) {
+      setListIsActive(0);
+      setHomeIsActive(1);
+    }
+    if (instructionsActive == 1) {
+      setInstructionsActive(0);
+      setHomeIsActive(1);
+    }
+    if (homeIsActive == 1) {
+      setHomeIsActive(0);
+    }
   };
 
   const listClick = () => {
-    console.log("List button pressed");
-    if (listIsActive == 0) {
+    if (instructionsActive == 1) {
+      setInstructionsActive(0);
       setListIsActive(1);
-    } else {
+    } else if (listIsActive == 1) {
       setListIsActive(0);
+    } else {
+      setHomeIsActive(0);
+      setListIsActive(1);
     }
-    console.log("List:", listIsActive);
-  };
-
-  const listClickTimer = () => {
-    setTimeout(listClick, 1000);
   };
 
   const instructionClick = () => {
-    console.log("Instruction button pressed");
-    setHomeIsActive(0);
-    setListIsActive(0);
-    setInstructionsActive(1);
-    console.log("Instructions:", instructionsActive);
+    if (listIsActive == 1) {
+      setListIsActive(0);
+      setInstructionsActive(1);
+    } else if (instructionsActive == 1) {
+      setInstructionsActive(0);
+    } else {
+      setInstructionsActive(1);
+    }
   };
+
+  const listClickTimer = () => {
+    setTimeout(listClick, 500);
+  };
+
+  const homeClickTimer = () => {
+    setTimeout(homeClick, 500);
+  };
+
+  const instructionClickTimer = () => {
+    setTimeout(instructionClick, 500);
+  };
+
   return (
     <>
       <div className="bodyDiv">
         <NavBar
-          homeClick={homeClick}
+          homeClick={homeClickTimer}
           listClick={listClickTimer}
-          instructionClick={instructionClick}
+          instructionClick={instructionClickTimer}
         ></NavBar>
         <div className="nav"></div>
         <div className="mainDiv">
@@ -158,6 +183,14 @@ function App() {
           </div>
           <div className="ListTransitionBox" data-active={listIsActive}>
             {!!listIsActive && <ListTransitionBox></ListTransitionBox>}
+          </div>
+          <div
+            className="InstructionsTransitionBox"
+            data-active={instructionsActive}
+          >
+            {!!instructionsActive && (
+              <InstructionsTransitionBox></InstructionsTransitionBox>
+            )}
           </div>
         </div>
       </div>
