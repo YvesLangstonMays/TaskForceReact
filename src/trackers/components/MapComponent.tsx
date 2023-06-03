@@ -41,8 +41,6 @@ function MapComponent({ passedComp }: any) {
     return latlngList;
   });
 
-  console.log(locations);
-
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
       (position: GeolocationPosition) => {
@@ -57,8 +55,6 @@ function MapComponent({ passedComp }: any) {
   function createKey(location: { lat: any; lng: any }) {
     return location.lat + location.lng;
   }
-
-  console.log(userLocation);
 
   return (
     <div className="theMap">

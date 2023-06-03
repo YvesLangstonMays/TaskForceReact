@@ -64,7 +64,24 @@
 	}
 }
 
-.homeTransitionBox[data-active="1"]
+@keyframes transitionBoxExit {
+	from
+	{
+		width: 100%;
+		height: 100%;
+		opacity: 100;
+		
+	}
+	to
+	{
+		width: 0%;
+		height: 0%;
+		opacity: 0;
+	}
+}
+
+
+.ListTransitionBox[data-active="1"]
 {
 	position: absolute;
 	z-index: 9;
@@ -72,6 +89,16 @@
 	width: 100%;
 	height: 100%;
 	animation: transitionBox 1s;
+}
+
+.ListTransitionBox[data-inactive="1"]
+{
+	position: absolute;
+	z-index: 9;
+	background-color: white;
+	width: 0%;
+	height: 0%;
+	animation: transitionBoxExit 1s;
 }
 
 .site-title{

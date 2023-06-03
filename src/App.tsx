@@ -2,30 +2,30 @@ import { useEffect, useState } from "react";
 import NavBar from "./trackers/components/NavBar";
 import HomeTransitionBox from "./trackers/components/HomeTransitionBox";
 import ZipCodeEntry from "./trackers/components/ZipCodeEntry";
+import ListTransitionBox from "./trackers/components/ListTransitionBox";
 
 function App() {
   const [homeIsActive, setHomeIsActive] = useState(0);
   const [listIsActive, setListIsActive] = useState(0);
   const [instructionsActive, setInstructionsActive] = useState(0);
+  const [inactivateList, setInactivateList] = useState(0);
 
   const homeClick = () => {
+    setHomeIsActive(1);
+
     console.log("Home button pressed");
     setListIsActive(0);
     setInstructionsActive(0);
-    if (homeIsActive == 1) {
-      setHomeIsActive(0);
-    } else {
-      setHomeIsActive(1);
-    }
+
     console.log("Home:", homeIsActive);
   };
-
-  const listClick = () => {
-    console.log("List button pressed");
-    setInstructionsActive(0);
-    setHomeIsActive(0);
+  const activateList = () => {
     setListIsActive(1);
-    console.log("List:", listIsActive);
+    setInactivateList(0);
+  };
+  const listClick = () => {
+    console.log("Inactivate list :", inactivateList);
+    console.log("List is active :", listIsActive);
   };
 
   const instructionClick = () => {
@@ -152,8 +152,15 @@ function App() {
           <div className="zipbox">
             <ZipCodeEntry />
           </div>
-          <div className="homeTransitionBox" data-active={homeIsActive}>
-            {homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
+          <div className="homeTransitionBox" data-active={listIsActive}>
+            {listIsActive && <HomeTransitionBox></HomeTransitionBox>}
+          </div>
+          <div
+            className="ListTransitionBox"
+            data-inactivate={inactivateList}
+            data-active={listIsActive}
+          >
+            {listIsActive && <ListTransitionBox></ListTransitionBox>}
           </div>
         </div>
       </div>
