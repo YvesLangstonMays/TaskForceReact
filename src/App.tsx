@@ -154,10 +154,10 @@ function App() {
             <ZipCodeEntry />
           </div>
           <div className="homeTransitionBox" data-active={homeIsActive}>
-            {homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
+            {!!homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
           </div>
           <div className="ListTransitionBox" data-active={listIsActive}>
-            {listIsActive && <ListTransitionBox></ListTransitionBox>}
+            {!!listIsActive && <ListTransitionBox></ListTransitionBox>}
           </div>
         </div>
       </div>
