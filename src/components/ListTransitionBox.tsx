@@ -7,19 +7,10 @@ const ListTransitionBox = () => {
 
   useEffect(() => {
     fetch("http://127.0.0.1:8000/List/")
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error(
-            `This is an HTTP error: The status is ${response.status}`
-          );
-        }
-        return response.json();
-      })
       .then((data) => data.json())
       .then((data) => {
         setData(data);
         setError(null);
-        console.log(data);
       })
       .catch((err) => {
         setError(err.message);
@@ -38,14 +29,6 @@ const ListTransitionBox = () => {
         {error && (
           <div>{`There is a problem fetching the post data - ${error}`}</div>
         )}
-        <ul>
-          {data &&
-            data.map(({ id, title }) => (
-              <li key={id}>
-                <h3>{title}</h3>
-              </li>
-            ))}
-        </ul>
       </div>
     </>
   );
