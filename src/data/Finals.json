@@ -1,0 +1,5352 @@
+[
+  {
+    "index": 0,
+    "uuid": "Amistad Community Health Center, Inc.",
+    "SiteName": "Amistad Community Health Center",
+    "Address": "1533 S Brownlee Blvd",
+    "City": "Corpus Christi",
+    "County": "Nueces",
+    "ZIP": 78404,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 1,
+    "uuid": "Asian American Health Coalition dba HOPE Clinic",
+    "SiteName": "HOPE Clinic - Alief",
+    "Address": "14438 Bellaire Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77083,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 2,
+    "uuid": "Asian American Health Coalition dba HOPE Clinic",
+    "SiteName": "HOPE Clinic - West Office",
+    "Address": "12121 Westheimer Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77077,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 3,
+    "uuid": "Asian American Health Coalition dba HOPE Clinic",
+    "SiteName": "Asian American Health Coalition dba HOPE Clinic",
+    "Address": "7001 Corporate Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77036,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 4,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa - Karnes Community Health Center",
+    "Address": "302 N Butler",
+    "City": "Karnes City",
+    "County": "Karnes",
+    "ZIP": 78118,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 5,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa - Wilson Community Health Center",
+    "Address": "540 10th St",
+    "City": "Floresville",
+    "County": "Wilson",
+    "ZIP": 78114,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 6,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa - McMullen Community Health Center",
+    "Address": "203 Hackberry St",
+    "City": "Tilden",
+    "County": "McMullen",
+    "ZIP": 78072,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 7,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa - Live Oak Community Health Center",
+    "Address": "105 E Thornton St",
+    "City": "Three Rivers",
+    "County": "Live Oak",
+    "ZIP": 78071,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 8,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa Health Center, Inc.",
+    "Address": "310 W Oaklawn",
+    "City": "Pleasanton",
+    "County": "Atascosa",
+    "ZIP": 78064,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 9,
+    "uuid": "Atascosa Health Center, Inc.",
+    "SiteName": "Atascosa - Lytle Community Health Center",
+    "Address": "15033 Main St",
+    "City": "Lytle",
+    "County": "Atascosa",
+    "ZIP": 78052,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 10,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Wimberley Campus",
+    "Address": "203 Stillwater",
+    "City": "Wimberley",
+    "County": "Hays",
+    "ZIP": 78676,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 11,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - San Marcos Campus",
+    "Address": "1340 Wonder World Dr",
+    "City": "San Marcos",
+    "County": "Hays",
+    "ZIP": 78666,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 12,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Kyle Campus",
+    "Address": "2810 Dacy Ln",
+    "City": "Kyle",
+    "County": "Hays",
+    "ZIP": 78640,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 13,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Potranco Campus",
+    "Address": "9594 Potranco Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78251,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 14,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Las Palmas WIC Campus",
+    "Address": "803 Castroville Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78237,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 15,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Hill Country Village Campus",
+    "Address": "14811 San Pedro Ave",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78232,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 16,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Shavano Park",
+    "Address": "3619 Paesanos Pkwy",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78231,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 17,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Northwest Campus",
+    "Address": "8210 Callaghan Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78230,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 18,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - East Campus",
+    "Address": "3066 E Commerce",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78220,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 19,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Metropolitan Campus",
+    "Address": "1200 Brooklyn Ave",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78212,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 20,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - West Commerce",
+    "Address": "2614 W Commerce St",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78212,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 21,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - West Campus",
+    "Address": "1102 Barclay St",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 22,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Downtown Campus",
+    "Address": "311 Camden",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78205,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 23,
+    "uuid": "Barrio Comprehensive Family Health Care Center, Inc. dba CommuniCare Health Centers",
+    "SiteName": "CommuniCare Health Centers - Boerne Campus",
+    "Address": "430 W Bandera Rd",
+    "City": "Boerne",
+    "County": "Kendall",
+    "ZIP": 78006,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 24,
+    "uuid": "Bee Busy Wellness Center",
+    "SiteName": "Bee Busy Wellness Center - Westchase Location",
+    "Address": "9896 Bissonnet",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77036,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 25,
+    "uuid": "Bee Busy Wellness Center",
+    "SiteName": "Bee Busy Wellness Center - Braes Oaks Location",
+    "Address": "8785 W Bellfort St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77031,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 26,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Somerville",
+    "Address": "600 Memory Ln",
+    "City": "Somerville",
+    "County": "Burleson",
+    "ZIP": 77879,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 27,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Navasota",
+    "Address": "1905 Dove Crossing",
+    "City": "Navasota",
+    "County": "Grimes",
+    "ZIP": 77868,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 28,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Madisonville",
+    "Address": "100 W Cross St",
+    "City": "Madisonville",
+    "County": "Madison",
+    "ZIP": 77864,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 29,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Family Planning Hearne",
+    "Address": "709 Barton St",
+    "City": "Hearne",
+    "County": "Robertson",
+    "ZIP": 77859,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 30,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Robertson County Community Health Center",
+    "Address": "1002 W Brown St",
+    "City": "Hearne",
+    "County": "Robertson",
+    "ZIP": 77859,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 31,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint -  Franklin",
+    "Address": "808 W Highway 79",
+    "City": "Franklin",
+    "County": "Robertson",
+    "ZIP": 77856,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 32,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - ABC",
+    "Address": "1604 Rock Prairie Rd",
+    "City": "College Station",
+    "County": "Brazos",
+    "ZIP": 77845,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 33,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Caldwell",
+    "Address": "1103 Woodson Dr",
+    "City": "Caldwell",
+    "County": "Burleson",
+    "ZIP": 77836,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 34,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Bryan/College Station",
+    "Address": "3370 S Texas Ave",
+    "City": "Bryan",
+    "County": "Brazos",
+    "ZIP": 77802,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 35,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Memorial",
+    "Address": "1301 Memorial Dr",
+    "City": "Bryan",
+    "County": "Brazos",
+    "ZIP": 77802,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 36,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Dental",
+    "Address": "624 Mary Lake",
+    "City": "Bryan",
+    "County": "Brazos",
+    "ZIP": 77801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 37,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Hempstead",
+    "Address": "215 FM 1488 Rd",
+    "City": "Hempstead",
+    "County": "Waller",
+    "ZIP": 77445,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 38,
+    "uuid": "Brazos Valley Community Action Agency, Inc. dba HealthPoint",
+    "SiteName": "HealthPoint - Centerville",
+    "Address": "607 Lassater",
+    "City": "Centerville",
+    "County": "Leon",
+    "ZIP": 75833,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 39,
+    "uuid": "Brownsville Community Health Center",
+    "SiteName": "Brownsville Community Health Center - 22nd Street",
+    "Address": "2137 E 22nd St",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78521,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 40,
+    "uuid": "Brownsville Community Health Center",
+    "SiteName": "Brownsville Community Health Center - New Horizon Medical",
+    "Address": "95 E Price Rd",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78521,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 41,
+    "uuid": "Brownsville Community Health Center",
+    "SiteName": "Brownsville Community Health Center - New Horizon Medical Center",
+    "Address": "191 E Price Rd",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78521,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 42,
+    "uuid": "Cactus Health Services, Inc.",
+    "SiteName": "Cactus Health Services - Fort Stockton Clinic",
+    "Address": "301 N Water St",
+    "City": "Fort Stockton",
+    "County": "Pecos",
+    "ZIP": 79735,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 43,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - North Central",
+    "Address": "1210 W Braker Ln",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78758,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 44,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - North Central Dental Clinic",
+    "Address": "1210 W Braker Ln",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78758,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 45,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Austin Travis County Integral Care #1 (referral only)",
+    "Address": "825 E Rundberg",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78753,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 46,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Rundberg",
+    "Address": "825 E Rundberg Ln",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78753,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 47,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - David Powell-HIV/AIDS Clinic",
+    "Address": "4614 N IH 35",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78751,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 48,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Hancock",
+    "Address": "1000 E 41st",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78751,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 49,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Austin Travis County Integral Care #2 (referral only)",
+    "Address": "1631 E Second St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78745,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 50,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Austin Travis County Integral Care #3 (referral only)",
+    "Address": "5015 S IH 35",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78744,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 51,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - William Cannon",
+    "Address": "6801 S IH 35",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78744,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 52,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Southeast Health & Wellness Center",
+    "Address": "2901 Montopolis Dr",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78741,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 53,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Southeast Health & Wellness Center Dental",
+    "Address": "2901 Montopolis Dr",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78741,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 54,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Oak Hill",
+    "Address": "8656-A Hwy 71 W",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78735,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 55,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Community First Health Center",
+    "Address": "9301 Hog Eye Rd",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78724,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 56,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Ben White Dental",
+    "Address": "1221 W Ben White",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 57,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - South Austin",
+    "Address": "2529 S First St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 58,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - South Austin Dental Clinic",
+    "Address": "2529 S First St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 59,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - East Austin",
+    "Address": "211 Comal St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 60,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Sandra Joy Anderson Community Health and Wellness Center",
+    "Address": "1705 E 11th St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 61,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Austin Resource Center for the Homeless (ARCH)",
+    "Address": "500 E 7th St",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 62,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Blackstock",
+    "Address": "1313 Red River",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 63,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Complex Primary Care Health Center",
+    "Address": "1400 N IH 35, Suite 2.450",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 64,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Pflugerville",
+    "Address": "15822 Foothill Farms Loop",
+    "City": "Pflugerville",
+    "County": "Travis",
+    "ZIP": 78660,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 65,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Manor",
+    "Address": "600 W Carrie Manor St",
+    "City": "Manor",
+    "County": "Travis",
+    "ZIP": 78653,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 66,
+    "uuid": "Central Texas Community Health Centers dba CommUnityCare",
+    "SiteName": "CommUnityCare - Del Valle",
+    "Address": "3518 FM 973",
+    "City": "Del Valle",
+    "County": "Travis",
+    "ZIP": 78617,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 67,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Montana Vista Resource Center",
+    "Address": "14618 Greg Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79938,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 68,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - CARE Center",
+    "Address": "1505 Mescalero Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79925,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 69,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Lisbon Satellite Clinic",
+    "Address": "200 Lisbon St",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79905,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 70,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Administration Office",
+    "Address": "1314 E Yandell",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 71,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Jose Roman Memorial Pediatric Clinic",
+    "Address": "815 Yandell",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 72,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Senior Companion Program, Community Outreach",
+    "Address": "1225 Yandell St",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 73,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - WIC Office",
+    "Address": "815 E Yandell",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 74,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Yandell Adult Clinic",
+    "Address": "823 E Yandell",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 75,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Central Clinic, WIC Office, Prenatal",
+    "Address": "700 S Ochoa St",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79901,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 76,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Child & Adolescent Wellness Center, Pediatric",
+    "Address": "721 S Ochoa St",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79901,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 77,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Child & Adolescent Wellness, Culture & Technology",
+    "Address": "721 S Ochoa (rear)",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79901,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 78,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Preparatory School",
+    "Address": "616 Father Rahm",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79901,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 79,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - San Elizario Satellite Clinic",
+    "Address": "12101 Socorro Rd",
+    "City": "San Elizario",
+    "County": "El Paso",
+    "ZIP": 79849,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 80,
+    "uuid": "Centro de Salud Familiar La Fe, Inc.",
+    "SiteName": "Centro de Salud Familiar La Fe - Westway Satellite Clinic & Community Center",
+    "Address": "1713 Banker Rd",
+    "City": "Canutillo",
+    "County": "El Paso",
+    "ZIP": 79835,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 81,
+    "uuid": "Centro San Vicente",
+    "SiteName": "Centro San Vicente - Pebble Hills",
+    "Address": "10780 Pebble Hills Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79935,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 82,
+    "uuid": "Centro San Vicente",
+    "SiteName": "Centro San Vicente",
+    "Address": "8061 Alameda Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79915,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 83,
+    "uuid": "Centro San Vicente",
+    "SiteName": "Centro San Vicente - Wellness Center at Emergence Healthcare Network",
+    "Address": "1600 Montana Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79902,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 84,
+    "uuid": "Centro San Vicente",
+    "SiteName": "Centro San Vicente - Homeless Clinic",
+    "Address": "1208 Myrtle Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79901,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 85,
+    "uuid": "Centro San Vicente",
+    "SiteName": "Centro San Vicente - San Elizario Clinic",
+    "Address": "13017 Perico",
+    "City": "San Elizario",
+    "County": "El Paso",
+    "ZIP": 79849,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 86,
+    "uuid": "Chambers Community Health Centers, Inc.",
+    "SiteName": "Chambers - West Medical Center",
+    "Address": "9825 Eagle Dr",
+    "City": "Mont Belvieu",
+    "County": "Chambers",
+    "ZIP": 77580,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 87,
+    "uuid": "Chambers Community Health Centers, Inc.",
+    "SiteName": "Chambers - Bayside Clinic",
+    "Address": "621 S Ross Sterling",
+    "City": "Anahuac",
+    "County": "Chambers",
+    "ZIP": 77514,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 88,
+    "uuid": "Chambers Community Health Centers, Inc.",
+    "SiteName": "Chambers - Bayside Clinic - Anahuac I.S.D School-Based Health Center",
+    "Address": "409 S Ross Sterling",
+    "City": "Anahuac",
+    "County": "Chambers",
+    "ZIP": 77514,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 89,
+    "uuid": "Coastal Bend Wellness Foundation",
+    "SiteName": "Coastal Bend Wellness Foundation",
+    "Address": "5633 S Staples",
+    "City": "Corpus Christi",
+    "County": "Nueces",
+    "ZIP": 78411,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 90,
+    "uuid": "Coastal Health & Wellness",
+    "SiteName": "Coastal Health & Wellness - Texas City",
+    "Address": "9850 C Emmett F. Lowry Expressway",
+    "City": "Texas City",
+    "County": "Galveston",
+    "ZIP": 77591,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 91,
+    "uuid": "Coastal Health & Wellness",
+    "SiteName": "Coastal Health & Wellness - Galveston",
+    "Address": "4700 Broadway",
+    "City": "Galveston",
+    "County": "Galveston",
+    "ZIP": 77550,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 92,
+    "uuid": "Collin CountyAdult Clinic dba Collin CountyCommunity Health Center",
+    "SiteName": "The West Side Clinic",
+    "Address": "4100 W. 15th Street, Suite 112",
+    "City": "Plano",
+    "County": "Collin",
+    "ZIP": 75093,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 93,
+    "uuid": "Collin CountyAdult Clinic dba Collin CountyCommunity Health Center",
+    "SiteName": "Collin CountyCommunity Health Center",
+    "Address": "2520 Avenue K, Suite 100",
+    "City": "Plano",
+    "County": "Collin",
+    "ZIP": 75074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 94,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Integration Center, Taft",
+    "Address": "201 Roots Ave",
+    "City": "Taft",
+    "County": "San Patricio",
+    "ZIP": 78390,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 95,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Sinton",
+    "Address": "621 E Sinton",
+    "City": "Sinton",
+    "County": "San Patricio",
+    "ZIP": 78387,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 96,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - School Based Health Center",
+    "Address": "502 E San Patricio Ave",
+    "City": "Mathis",
+    "County": "San Patricio",
+    "ZIP": 78368,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 97,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Integration Center, Kingsville",
+    "Address": "1621 E Corral St",
+    "City": "Kingsville",
+    "County": "Kleberg",
+    "ZIP": 78363,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 98,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Kleberg",
+    "Address": "1311 E General Cavazos Blvd",
+    "City": "Kingsville",
+    "County": "Kleberg",
+    "ZIP": 78363,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 99,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Falfurrias",
+    "Address": "1302 S Saint Marys St",
+    "City": "Falfurrias",
+    "County": "Brooks",
+    "ZIP": 78355,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 100,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Integration Center, Falfurrias",
+    "Address": "101 W Potts",
+    "City": "Falfurrias",
+    "County": "Brooks",
+    "ZIP": 78355,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 101,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Duval",
+    "Address": "115 W Main",
+    "City": "Benavides",
+    "County": "Duval",
+    "ZIP": 78341,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 102,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Alice",
+    "Address": "700 Flournoy Rd",
+    "City": "Alice",
+    "County": "Jim Wells",
+    "ZIP": 78332,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 103,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Integration Center, Alice",
+    "Address": "614 W Front St",
+    "City": "Alice",
+    "County": "Jim Wells",
+    "ZIP": 78332,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 104,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Beeville",
+    "Address": "301 SouthHill Side Dr",
+    "City": "Beeville",
+    "County": "Bee",
+    "ZIP": 78102,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 105,
+    "uuid": "Community Action Corporation of South Texas",
+    "SiteName": "Community Action Corp - Integration Center, Beeville",
+    "Address": "2808 Industrial Loop",
+    "City": "Beeville",
+    "County": "Bee",
+    "ZIP": 78102,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 106,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Arnett Benson Medical and Dental Clinic",
+    "Address": "3301 Clovis Rd",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79415,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 107,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Medical Plaza",
+    "Address": "3502 9th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79415,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 108,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - 96 West",
+    "Address": "2401 Fulton Ave.",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79407,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 109,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - West Medical and Dental Clinic",
+    "Address": "5424 19th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79407,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 110,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Chatman Community Health Center",
+    "Address": "2301 Cedar Ave",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79404,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 111,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Community Dental Clinic",
+    "Address": "1826 Parkway Dr",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79403,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 112,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Parkway Community Health Center",
+    "Address": "406 MLK Blvd",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79403,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 113,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Mobile Dental Unit",
+    "Address": "1610 5th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 114,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "CHC of Lubbock - Mobile Medical Unit",
+    "Address": "1610 5th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 115,
+    "uuid": "Community Health Center of Lubbock, Inc.",
+    "SiteName": "Community Health Center of Lubbock",
+    "Address": "1610 5th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 116,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Luling Community Dental Center",
+    "Address": "651 S Crockett St",
+    "City": "Luling",
+    "County": "Caldwell",
+    "ZIP": 78648,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 117,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Luling Community Health Center",
+    "Address": "111 S Laurel St",
+    "City": "Luling",
+    "County": "Caldwell",
+    "ZIP": 78648,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 118,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Lockhart Family Practice Center",
+    "Address": "2060 S Colorado St",
+    "City": "Lockhart",
+    "County": "Caldwell",
+    "ZIP": 78644,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 119,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Gonzales Admin and WIC",
+    "Address": "229 St. George St",
+    "City": "Gonzales",
+    "County": "Gonzales",
+    "ZIP": 78629,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 120,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Gonzales Community Dental Clinic",
+    "Address": "228 St. George St",
+    "City": "Gonzales",
+    "County": "Gonzales",
+    "ZIP": 78629,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 121,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Gonzales Community Health Center",
+    "Address": "228 St. George St",
+    "City": "Gonzales",
+    "County": "Gonzales",
+    "ZIP": 78629,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 122,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Gonzales WIC",
+    "Address": "228 St. George St",
+    "City": "Gonzales",
+    "County": "Gonzales",
+    "ZIP": 78629,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 123,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas - Elgin Family Health Center at Elgin ISD",
+    "Address": "902 W 2nd St",
+    "City": "Elgin",
+    "County": "Bastrop",
+    "ZIP": 78629,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 124,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Bastrop Community Health Center",
+    "Address": "275 Jackson St",
+    "City": "Bastrop",
+    "County": "Bastrop",
+    "ZIP": 78602,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 125,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Seguin Community Dental Center",
+    "Address": "1201 W Court St",
+    "City": "Seguin",
+    "County": "Guadalupe",
+    "ZIP": 78155,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 126,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Seguin Community Health Center",
+    "Address": "1201 W Court St",
+    "City": "Seguin",
+    "County": "Guadalupe",
+    "ZIP": 78155,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 127,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Seguin Family Health Center",
+    "Address": "1104 Jefferson St",
+    "City": "Seguin",
+    "County": "Guadalupe",
+    "ZIP": 78155,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 128,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Nixon WIC",
+    "Address": "207 S Washington Ave",
+    "City": "Nixon",
+    "County": "Gonzales",
+    "ZIP": 78140,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 129,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Hallettsville WIC",
+    "Address": "318 La Grange",
+    "City": "Hallettsville",
+    "County": "Lavaca",
+    "ZIP": 77964,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 130,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Victoria Community Dental Center",
+    "Address": "2805 Navarro St",
+    "City": "Victoria",
+    "County": "Victoria",
+    "ZIP": 77901,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 131,
+    "uuid": "Community Health Centers of South Central Texas",
+    "SiteName": "CHC of South Central Texas -  Victoria Community Health Center",
+    "Address": "2805 Navarro St",
+    "City": "Victoria",
+    "County": "Victoria",
+    "ZIP": 77901,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 132,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Rolling Hills Health",
+    "Address": "Highway 83 & Oakhill Dr",
+    "City": "Leakey",
+    "County": "Real",
+    "ZIP": 78873,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 133,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Canyon Health Center",
+    "Address": "700 Frio St",
+    "City": "Campwood",
+    "County": "Real",
+    "ZIP": 78833,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 134,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Center for Community Wellness, Administration Building",
+    "Address": "908 S Evans St",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 135,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Center for Community Wellness, Dental Dept. & Teaching Kitchen",
+    "Address": "908 S Evans St",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 136,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Center for Community Wellness, Fitness Center",
+    "Address": "908 S Evans St",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 137,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Our Health/Nuestro Centro de Salud",
+    "Address": "200 S Evans St",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 138,
+    "uuid": "Community Health Development, Inc.",
+    "SiteName": "Community Health - Uvalde CountyJail Clinic",
+    "Address": "339 King Fisher Ln",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 139,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Farmersville Family Medical Center",
+    "Address": "111 N Johnson St",
+    "City": "Farmersville",
+    "County": "Collin",
+    "ZIP": 75442,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 140,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Cooper Community Health Center",
+    "Address": "91 W Side Sq",
+    "City": "Cooper",
+    "County": "Delta",
+    "ZIP": 75432,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 141,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Bonham Community Health Center",
+    "Address": "920 N Center St",
+    "City": "Bonham",
+    "County": "Fannin",
+    "ZIP": 75418,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 142,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Patient Support Center",
+    "Address": "2824 Terrell St",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75402,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 143,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Pediatric Center of Greenville",
+    "Address": "3005 A Joe Ramsey Blvd",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75402,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 144,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Administration Office",
+    "Address": "4500 Wesley St",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75401,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 145,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Dental",
+    "Address": "3600 Caddo St",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 146,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Greenville Community Health Center",
+    "Address": "4311 Wesley St",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 147,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Womens Center of Greenville",
+    "Address": "4311 B Wesley St",
+    "City": "Greenville",
+    "County": "Hunt",
+    "ZIP": 75401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 148,
+    "uuid": "Community Health Service Agency, Inc.",
+    "SiteName": "Community Health Service Agency - Kaufman Community Health Center",
+    "Address": "101 N Houston",
+    "City": "Kaufman",
+    "County": "Kaufman",
+    "ZIP": 75142,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 149,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - Brownwood Dental Clinic",
+    "Address": "104 S Park Dr",
+    "City": "Brownwood",
+    "County": "Brown",
+    "ZIP": 76801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 150,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - Brownwood Medical Clinic",
+    "Address": "3804 Hwy 377 S",
+    "City": "Brownwood",
+    "County": "Brown",
+    "ZIP": 76801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 151,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - DeLeon Dental Clinic",
+    "Address": "1100 W Reynosa St",
+    "City": "De Leon",
+    "County": "Comanche",
+    "ZIP": 76444,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 152,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - DeLeon Medical Clinic & Administration",
+    "Address": "1100 W Reynosa St",
+    "City": "De Leon",
+    "County": "Comanche",
+    "ZIP": 76444,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 153,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - Stephenville Dental Clinic",
+    "Address": "135 River North Blvd",
+    "City": "Stephenville",
+    "County": "Erath",
+    "ZIP": 76401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 154,
+    "uuid": "Cross Timbers Health Clinics, Inc. dba AccelHealth",
+    "SiteName": "AccelHealth - Stephenville Medical Clinic",
+    "Address": "135 River North Blvd",
+    "City": "Stephenville",
+    "County": "Erath",
+    "ZIP": 76401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 155,
+    "uuid": "Dallas CountyHospital District",
+    "SiteName": "DALLAS CountyHOSPITAL DISTRICT",
+    "Address": "5201 HARRY HINES BLVD",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75235,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 156,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Marshall",
+    "Address": "805 Lindsey Dr",
+    "City": "Marshall",
+    "County": "Harrison",
+    "ZIP": 75670,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 157,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Marshall Pediatrics",
+    "Address": "618 S Grove St",
+    "City": "Marshall",
+    "County": "Harrison",
+    "ZIP": 75670,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 158,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Marshall Pediatrics",
+    "Address": "707 S Grove St",
+    "City": "Marshall",
+    "County": "Harrison",
+    "ZIP": 75670,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 159,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Marshall Pediatrics",
+    "Address": "620 S Grove St",
+    "City": "Marshall",
+    "County": "Harrison",
+    "ZIP": 75670,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 160,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Jefferson",
+    "Address": "106 N Alley",
+    "City": "Jefferson",
+    "County": "Marion",
+    "ZIP": 75657,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 161,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Longview Medical Clinic",
+    "Address": "2131 S Mobberly",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75602,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 162,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Ellington Memorial Clinic",
+    "Address": "1011 S William St",
+    "City": "Atlanta",
+    "County": "Cass",
+    "ZIP": 75551,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 163,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Texarkana Medical Clinic",
+    "Address": "1400 College Dr",
+    "City": "Texarkana",
+    "County": "Bowie",
+    "ZIP": 75503,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 164,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Texarkana OB/GYN",
+    "Address": "2602 St. Michael Dr",
+    "City": "Texarkana",
+    "County": "Bowie",
+    "ZIP": 75503,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 165,
+    "uuid": "East Texas Border Health dba Genesis PrimeCare",
+    "SiteName": "Genesis PrimeCare - Texarkana Arkansas Clinic",
+    "Address": "1205 E 35th St",
+    "City": "Texarkana",
+    "County": "Miller",
+    "ZIP": 71854,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 166,
+    "uuid": "East Texas Community Health Services, Inc.",
+    "SiteName": "East Texas Community Health Services - Westside Community Clinic, Dental",
+    "Address": "1210 Douglass Rd",
+    "City": "Nacogdoches",
+    "County": "Nacogdoches",
+    "ZIP": 75963,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 167,
+    "uuid": "East Texas Community Health Services, Inc.",
+    "SiteName": "East Texas Community Health Services - Administration Office",
+    "Address": "1401 S University Dr",
+    "City": "Nacogdoches",
+    "County": "Nacogdoches",
+    "ZIP": 75961,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 168,
+    "uuid": "East Texas Community Health Services, Inc.",
+    "SiteName": "East Texas Community Health Services - Eastside Community Clinic, Medical",
+    "Address": "1309 S University Dr",
+    "City": "Nacogdoches",
+    "County": "Nacogdoches",
+    "ZIP": 75961,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 169,
+    "uuid": "East Texas Community Health Services, Inc.",
+    "SiteName": "East Texas Community Health Services - Lufkin Community Clinic, Medical",
+    "Address": "1316 Lakeview St",
+    "City": "Lufkin",
+    "County": "Angelina",
+    "ZIP": 75904,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 170,
+    "uuid": "Ector CountyHospital District dba Family Health Clinic",
+    "SiteName": "Family Health Clinic - West University",
+    "Address": "6030 W University",
+    "City": "Odessa",
+    "County": "Ector",
+    "ZIP": 79764,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 171,
+    "uuid": "Ector CountyHospital District dba Family Health Clinic",
+    "SiteName": "Family Health Clinic - Clements",
+    "Address": "840 Clements",
+    "City": "Odessa",
+    "County": "Ector",
+    "ZIP": 79763,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 172,
+    "uuid": "El Centro de Corazon",
+    "SiteName": "El Centro de Corazon - Southeast",
+    "Address": "5901 Long Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77087,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 173,
+    "uuid": "El Centro de Corazon",
+    "SiteName": "El Centro de Corazon - Eastwood Health Center",
+    "Address": "412 Telephone Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77023,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 174,
+    "uuid": "El Centro de Corazon",
+    "SiteName": "El Centro de Corazon - Dunn Health Center",
+    "Address": "7635 Canal St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77012,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 175,
+    "uuid": "El Centro de Corazon",
+    "SiteName": "El Centro de Corazon - Magnolia Health Center",
+    "Address": "7037 Capitol St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77011,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 176,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Medina Base Clinic",
+    "Address": "5750 Medina Base Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78242,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 177,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Childrens Residential Treatment Center Clinic",
+    "Address": "4040 High Ridge Cr",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78229,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 178,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Palo Alto Clinic",
+    "Address": "9011 Poteet Jourdanton Hwy 16",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78224,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 179,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - CityBase Clinic",
+    "Address": "3127 SE Military Dr",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78223,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 180,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - CentroFitness & Encino Ballroom",
+    "Address": "3800 Commercial Ave",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78221,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 181,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Health and Wellness Center, Southside Medical Clinic",
+    "Address": "3750 Commercial Ave",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78221,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 182,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - WIC Nutrition Program (Military Dr)",
+    "Address": "910 SW Military Dr",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78221,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 183,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Noemi Galvan Eling Clinic",
+    "Address": "5542 Walzem Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78218,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 184,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - WIC Nutrition Program (Walzem Rd)",
+    "Address": "5255 Walzem Rd",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78218,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 185,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Davidson House Respite Care Shelter Clinic",
+    "Address": "605 Belknap Place",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78212,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 186,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Respite Day Care Shelter Clinic",
+    "Address": "510 Belknap Place",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78212,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 187,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - South Park Dental",
+    "Address": "910 Wagner",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78211,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 188,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - South Park Medical",
+    "Address": "6315 S Zarzamora",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78211,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 189,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - South Park Pharmacy",
+    "Address": "918 Wagner",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78211,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 190,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Santa Rosa Pavilion Clinic",
+    "Address": "315 N San Saba",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 191,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Sarah E. Davidson Homeless Clinic",
+    "Address": "1 Haven for Hope Way",
+    "City": "San Antonio",
+    "County": "Bexar",
+    "ZIP": 78207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 192,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - CountyLine Clinic",
+    "Address": "1034 W County Line",
+    "City": "New Braunfels",
+    "County": "Comal",
+    "ZIP": 78130,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 193,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - House of Hope Dental Clinic",
+    "Address": "256 Krueger Ave",
+    "City": "New Braunfels",
+    "County": "Comal",
+    "ZIP": 78130,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 194,
+    "uuid": "El Centro del Barrio dba CentroMed",
+    "SiteName": "CentroMed - Maria Castro Flores Clinic",
+    "Address": "7315 S Loop 1604 W",
+    "City": "Somerset",
+    "County": "Bexar",
+    "ZIP": 78069,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 195,
+    "uuid": "Ellis County Coalition for Health Options dba Hope Clinic",
+    "SiteName": "Ellis County Hope Clinic Coalition for Health Options dba Hope Clinic",
+    "Address": "411 E Jefferson St",
+    "City": "Waxahachie",
+    "County": "Ellis",
+    "ZIP": 75165,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 196,
+    "uuid": "Ellis County Coalition for Health Options dba Hope Clinic",
+    "SiteName": "Hope Clinic - Administrative Offices",
+    "Address": "201 Ferris Ave",
+    "City": "Waxahachie",
+    "County": "Ellis",
+    "ZIP": 75165,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 197,
+    "uuid": "Ellis County Coalition for Health Options dba Hope Clinic",
+    "SiteName": "Hope Clinic - Billing and Accounting Offices",
+    "Address": "201 Ferris Ave",
+    "City": "Waxahachie",
+    "County": "Ellis",
+    "ZIP": 75165,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 198,
+    "uuid": "Ellis County Coalition for Health Options dba Hope Clinic",
+    "SiteName": "Hope Clinic - Ennis",
+    "Address": "805 W Lampasas St",
+    "City": "Ennis",
+    "County": "Ellis",
+    "ZIP": 75119,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 199,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - Stafford Center",
+    "Address": "10435 Greenbough",
+    "City": "Stafford",
+    "County": "Fort Bend",
+    "ZIP": 77477,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 200,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - Richmond Center",
+    "Address": "400 Austin St",
+    "City": "Richmond",
+    "County": "Fort Bend",
+    "ZIP": 77469,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 201,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Weimer",
+    "Address": "First United Methodist Church",
+    "City": "Weimer",
+    "County": "Colorado",
+    "ZIP": 78962,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 202,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Columbus",
+    "Address": "520 Washington St",
+    "City": "Columbus",
+    "County": "Colorado",
+    "ZIP": 78934,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 203,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Katy",
+    "Address": "1260 Pin Oak Rd",
+    "City": "Katy",
+    "County": "Fort Bend",
+    "ZIP": 77494,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 204,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - Missouri CityCenter",
+    "Address": "307 Texas Pkwy",
+    "City": "Missouri City",
+    "County": "Fort Bend",
+    "ZIP": 77489,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 205,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Wharton",
+    "Address": "210 S Rusk St",
+    "City": "Wharton",
+    "County": "Wharton",
+    "ZIP": 77488,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 206,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Sealy",
+    "Address": "526 Ward St",
+    "City": "Sealy",
+    "County": "Austin",
+    "ZIP": 77474,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 207,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Rosenberg",
+    "Address": "1720 B.F. Terry Blvd",
+    "City": "Rosenberg",
+    "County": "Fort Bend",
+    "ZIP": 77471,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 208,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - Mobile Clinic",
+    "Address": "400 Austin St",
+    "City": "Richmond",
+    "County": "Fort Bend",
+    "ZIP": 77469,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 209,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Prairie View",
+    "Address": "Owen Franklin Health Center",
+    "City": "Prairie View",
+    "County": "Waller",
+    "ZIP": 77446,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 210,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Eagle Lake",
+    "Address": "700 McCarty",
+    "City": "Eagle Lake",
+    "County": "Colorado",
+    "ZIP": 77434,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 211,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - Brookshire Center",
+    "Address": "531 FM 359 S",
+    "City": "Brookshire",
+    "County": "Waller",
+    "ZIP": 77423,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 212,
+    "uuid": "Fort Bend Family Health Center, Inc. dba AccessHealth",
+    "SiteName": "AccessHealth - WIC Specialty Site, Bellville",
+    "Address": "800 Wendt St (Satellite Clinic)",
+    "City": "Bellville",
+    "County": "Austin",
+    "ZIP": 77418,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 213,
+    "uuid": "Fourth Ward dba Good Neighbor Healthcare Center",
+    "SiteName": "Good Neighbor Healthcare Center",
+    "Address": "190 Heights Blvd.",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77007,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 214,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Menard Clinic",
+    "Address": "119 S Ellis",
+    "City": "Menard",
+    "County": "Menard",
+    "ZIP": 76859,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 215,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Mason Clinic",
+    "Address": "216 E College St",
+    "City": "Mason",
+    "County": "Mason",
+    "ZIP": 76856,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 216,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Junction Clinic",
+    "Address": "509 College St",
+    "City": "Junction",
+    "County": "Kimble",
+    "ZIP": 76849,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 217,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Eden Clinic",
+    "Address": "551 Eaker St",
+    "City": "Eden",
+    "County": "Concho",
+    "ZIP": 76837,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 218,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Eden Dental",
+    "Address": "212 Jackson St",
+    "City": "Eden",
+    "County": "Concho",
+    "ZIP": 76837,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 219,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Brady Clinic",
+    "Address": "2205 S Bridge St",
+    "City": "Brady",
+    "County": "McCulloch",
+    "ZIP": 76825,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 220,
+    "uuid": "Frontera Healthcare Network",
+    "SiteName": "Frontera Healthcare Network - Brady Dental",
+    "Address": "1211 S Bridge St",
+    "City": "Brady",
+    "County": "McCulloch",
+    "ZIP": 76825,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 221,
+    "uuid": "Gateway Community Health Center, Inc",
+    "SiteName": "Gateway Community Health Center, Inc. - Hebbronville Clinic",
+    "Address": "473 State Hwy 285",
+    "City": "Hebbronville",
+    "County": "Jim Hogg",
+    "ZIP": 78361,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 222,
+    "uuid": "Gateway Community Health Center, Inc",
+    "SiteName": "Gateway Community Health Center, Inc. - Mobile Dental Clinic",
+    "Address": "210 N Rathmell Ave",
+    "City": "Zapata",
+    "County": "Zapata",
+    "ZIP": 78076,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 223,
+    "uuid": "Gateway Community Health Center, Inc",
+    "SiteName": "Gateway Community Health Center, Inc. - Zapata Clinic",
+    "Address": "210 N Rathmell Ave",
+    "City": "Zapata",
+    "County": "Zapata",
+    "ZIP": 78076,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 224,
+    "uuid": "Gateway Community Health Center, Inc",
+    "SiteName": "Gateway Community Health Center, Inc. - South Clinic",
+    "Address": "2007 S Zapata Hwy",
+    "City": "Laredo",
+    "County": "Webb",
+    "ZIP": 78046,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 225,
+    "uuid": "Gateway Community Health Center, Inc",
+    "SiteName": "Gateway Community Health Center, Inc.",
+    "Address": "1515 Pappas St",
+    "City": "Laredo",
+    "County": "Webb",
+    "ZIP": 78041,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 226,
+    "uuid": "Gulf Coast Health Center, Inc.",
+    "SiteName": "Gulf Coast Health Center - Silsbee",
+    "Address": "710 Hwy 327 E",
+    "City": "Silsbee",
+    "County": "Hardin",
+    "ZIP": 77656,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 227,
+    "uuid": "Gulf Coast Health Center, Inc.",
+    "SiteName": "Gulf Coast Health Center - Port Arthur",
+    "Address": "2548 Memorial Blvd",
+    "City": "Port Arthur",
+    "County": "Jefferson",
+    "ZIP": 77640,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 228,
+    "uuid": "Gulf Coast Health Center, Inc.",
+    "SiteName": "Gulf Coast Health Center - West Side",
+    "Address": "601B W Rev Dr Ransom Howard",
+    "City": "Port Arthur",
+    "County": "Jefferson",
+    "ZIP": 77640,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 229,
+    "uuid": "Gulf Coast Health Center, Inc.",
+    "SiteName": "Gulf Coast Health Center - Orange",
+    "Address": "1301 W Park Ave",
+    "City": "Orange",
+    "County": "Orange",
+    "ZIP": 77630,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 230,
+    "uuid": "Gulf Coast Health Center, Inc.",
+    "SiteName": "Gulf Coast Health Center - Jasper",
+    "Address": "103 W Gibson St",
+    "City": "Jasper",
+    "County": "Jasper",
+    "ZIP": 75951,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 231,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Star of Hope Cornerstone",
+    "Address": "2575 Reed Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77054,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 232,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Jackson Hinds Gardens",
+    "Address": "607 Thornton Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77018,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 233,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Crossroads",
+    "Address": "3827 Broadway Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77017,
+    "site_type": "Enabling services only"
+  },
+  {
+    "index": 234,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Open Door Mission",
+    "Address": "5803 Harrisburg Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77011,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 235,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Harmony House Respite Center",
+    "Address": "602 Girard St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77007,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 236,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Salvation Army Adult Rehabilitation Center",
+    "Address": "2118 Washington Ave",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77007,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 237,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Lord of the Streets",
+    "Address": "3401 Fannin St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77004,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 238,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Salvation Army Family Residence",
+    "Address": "1603 McGowen St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77004,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 239,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Compass",
+    "Address": "1212 Prairie St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Enabling services only"
+  },
+  {
+    "index": 240,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Salvation Army Sallys House",
+    "Address": "1717 Congress St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 241,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - SEARCH",
+    "Address": "2015 Congress Ave",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Enabling services only"
+  },
+  {
+    "index": 242,
+    "uuid": "Harris Health System",
+    "SiteName": "Harris Health System - Star of Hope Mission Mens Development Center",
+    "Address": "1811 Ruiz St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 243,
+    "uuid": "Healing Hands Ministries, Inc.",
+    "SiteName": "Healing Hands Ministries Inc. - Greenville",
+    "Address": "8515 Greenville Ave",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75243,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 244,
+    "uuid": "Healing Hands Ministries, Inc.",
+    "SiteName": "Healing Hands Ministries Inc. - Vickery",
+    "Address": "5750 Pineland",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75231,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 245,
+    "uuid": "Health Center of Southeast Texas",
+    "SiteName": "Health Center of Southeast Texas - Shepherd",
+    "Address": "1651 South Byrd Avenue",
+    "City": "Shepherd",
+    "County": "San Jacinto",
+    "ZIP": 77371,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 246,
+    "uuid": "Health Center of Southeast Texas",
+    "SiteName": "Health Center of Southeast Texas",
+    "Address": "307 N. William Barnett Ave",
+    "City": "Cleveland",
+    "County": "Liberty",
+    "ZIP": 77327,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 247,
+    "uuid": "Health Opportunities for the People of East Texas dba HOPE Project",
+    "SiteName": "The HOPE Project",
+    "Address": "157 Wall St",
+    "City": "Tenaha",
+    "County": "Shelby",
+    "ZIP": 75974,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 248,
+    "uuid": "Health Opportunities for the People of East Texas dba HOPE Project",
+    "SiteName": "The HOPE Project - Dental",
+    "Address": "164 Wall St",
+    "City": "Tenaha",
+    "County": "Shelby",
+    "ZIP": 75974,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 249,
+    "uuid": "Health Opportunities for the People of East Texas dba HOPE Project",
+    "SiteName": "The HOPE Project - Community Medicine",
+    "Address": "620 Tenaha St",
+    "City": "Center",
+    "County": "Shelby",
+    "ZIP": 75935,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 250,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Denton South Center",
+    "Address": "3537 South IH 35",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76210,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 251,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Denton Medical Center",
+    "Address": "4310 Mesa Dr",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 252,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Denton Medical Center",
+    "Address": "4308 Mesa Dr",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 253,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Denton Medical Center",
+    "Address": "4304 Mesa Dr",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76207,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 254,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Headquarters",
+    "Address": "4401 N IH 35",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76207,
+    "site_type": "Enabling services only"
+  },
+  {
+    "index": 255,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Elm Street Center",
+    "Address": "821 N Elm St",
+    "City": "Denton",
+    "County": "Denton",
+    "ZIP": 76201,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 256,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Wylie Childrens Medical Clinic",
+    "Address": "303 S Hwy 78",
+    "City": "Wylie",
+    "County": "Collin",
+    "ZIP": 75098,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 257,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Collin County Center",
+    "Address": "2540 K Ave",
+    "City": "Plano",
+    "County": "Collin",
+    "ZIP": 75074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 258,
+    "uuid": "Health Services of North Texas, Inc.",
+    "SiteName": "Health Services of North Texas - Plano Childrens Medical Clinic",
+    "Address": "1407 14th St",
+    "City": "Plano",
+    "County": "Collin",
+    "ZIP": 75074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 259,
+    "uuid": "Healthcare for the Homeless - Houston",
+    "SiteName": "Caroline Street Clinic",
+    "Address": "1934 Caroline",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 260,
+    "uuid": "Healthcare for the Homeless - Houston",
+    "SiteName": "Star of Hope Mens Development Center",
+    "Address": "1811 Ruiz",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77002,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 261,
+    "uuid": "Healthcare for the Homeless - Houston",
+    "SiteName": "Cathedral Clinic",
+    "Address": "1212 Prairie Street",
+    "City": "HOUSTON",
+    "County": "Harris",
+    "ZIP": 10000,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 262,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - West Waco Community Clinic",
+    "Address": "600 W State Hwy 6",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76712,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 263,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Womens Health Center",
+    "Address": "120 Hillcrest Medical Blvd",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76712,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 264,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Community Clinic at MCC",
+    "Address": "4601 N 19th St",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76708,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 265,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - MacArthur Pediatrics",
+    "Address": "2201 MacArthur Dr",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76708,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 266,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Family Counseling and Childrens Services (At Main Site)",
+    "Address": "1600 Providence Dr",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76707,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 267,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Madison Cooper Community Clinic Medical & Dental",
+    "Address": "1610 Providence Dr",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76707,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 268,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Main Site",
+    "Address": "1600 Providence Dr",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76707,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 269,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Bells Hill Community Clinic",
+    "Address": "911 S 20th St",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76706,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 270,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - South 18th Street Community Clinic Medical & Dental",
+    "Address": "1800 Gurley Ln",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76706,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 271,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Bellmead Community Clinic",
+    "Address": "3400 Bellmead Dr",
+    "City": "Bellmead",
+    "County": "McLennan",
+    "ZIP": 76705,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 272,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Elm Avenue Community Clinic Medical & Dental",
+    "Address": "609 Elm Ave",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 273,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Martin Luther King Community Clinic",
+    "Address": "1911 N Martin Luther King Blvd",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 274,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Austin Avenue Clinic",
+    "Address": "110 S 12th St",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 275,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Meyer Center Community Clinic",
+    "Address": "1226 Washington Ave",
+    "City": "Waco",
+    "County": "McLennan",
+    "ZIP": 76701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 276,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - McGregor Community Clinic Medical & Dental",
+    "Address": "500 S Johnson Dr",
+    "City": "McGregor",
+    "County": "McLennan",
+    "ZIP": 76657,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 277,
+    "uuid": "Heart of Texas Community Health Center dba Family Health Center",
+    "SiteName": "Family Health Center - Community Clinic at Santa Fe",
+    "Address": "600 S 25th St",
+    "City": "Temple",
+    "County": "Bell",
+    "ZIP": 76504,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 278,
+    "uuid": "Houston Area Community Services dba Avenue 360",
+    "SiteName": "Avenue 360 - Spring Cypress",
+    "Address": "17010 Sugar Pine Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77090,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 279,
+    "uuid": "Houston Area Community Services dba Avenue 360",
+    "SiteName": "Avenue 360 - Baustista Pediatric Health Center",
+    "Address": "902 Frostwood",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77024,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 280,
+    "uuid": "Houston Area Community Services dba Avenue 360",
+    "SiteName": "Houston Area Community Services dba Avenue 360",
+    "Address": "2150 W 18th St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77008,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 281,
+    "uuid": "Houston Area Community Services dba Avenue 360",
+    "SiteName": "Avenue 360 - Bering Omega Dental Clinic",
+    "Address": "1427 Hawthorne St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77006,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 282,
+    "uuid": "Houston Community Health Centers dba Vecino Health Centers",
+    "SiteName": "Vecino -  Airline Childrens Clinic",
+    "Address": "5808 Airline Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77076,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 283,
+    "uuid": "Houston Community Health Centers dba Vecino Health Centers",
+    "SiteName": "Vecino -  Denver Harbor Family Medicine Clinic",
+    "Address": "424 Hahlo St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77020,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 284,
+    "uuid": "Houston Community Health Centers dba Vecino Health Centers",
+    "SiteName": "Vecino - Denver Harbor Dental Clinic",
+    "Address": "424B Hahlo St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77020,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 285,
+    "uuid": "La Esperanza Clinic, Inc.",
+    "SiteName": "La Esperanza Clinic, Inc.",
+    "Address": "1610 S Chadbourne",
+    "City": "San Angelo",
+    "County": "Tom Green",
+    "ZIP": 76903,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 286,
+    "uuid": "La Esperanza Clinic, Inc.",
+    "SiteName": "La Esperanza Clinic, Inc. - Administrative Offices",
+    "Address": "2033 W Beauregard",
+    "City": "San Angelo",
+    "County": "Tom Green",
+    "ZIP": 76901,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 287,
+    "uuid": "La Esperanza Clinic, Inc.",
+    "SiteName": "La Esperanza Clinic, Inc. - Lakeview Clinic",
+    "Address": "35 E 31st St",
+    "City": "San Angelo",
+    "County": "Tom Green",
+    "ZIP": 76903,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 288,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP Southwest Campus",
+    "Address": "10711 KIPP Way",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77099,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 289,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP CONNECT",
+    "Address": "6700 Bellaire Bvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 290,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP SHARP",
+    "Address": "8430 Westglen Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77063,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 291,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP Sunnyside Campus",
+    "Address": "11000 Scott St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77047,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 292,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP East End Campus",
+    "Address": "5402 Lawndale St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77023,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 293,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP North Campus",
+    "Address": "500 Tidwell",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77022,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 294,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP Third Ward Campus",
+    "Address": "5400 MLK Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77021,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 295,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - South Park Campus",
+    "Address": "4450 Highland Ave",
+    "City": "Beaumont",
+    "County": "Jefferson",
+    "ZIP": 77705,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 296,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Central Beaumont",
+    "Address": "450 N 11th St",
+    "City": "Beaumont",
+    "County": "Jefferson",
+    "ZIP": 77702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 297,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Deer Park",
+    "Address": "3430 Center St",
+    "City": "Deer Park",
+    "County": "Harris",
+    "ZIP": 77536,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 298,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - San Jacinto Campus",
+    "Address": "4301 Garth Rd",
+    "City": "Baytown",
+    "County": "Harris",
+    "ZIP": 77521,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 299,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Bissonnet Campus",
+    "Address": "12667 Bissonnet St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77099,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 300,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP White Oak",
+    "Address": "5620 W Tidwell Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77091,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 301,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP West",
+    "Address": "8500 Texas 6",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77083,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 302,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Mapleridge Campus",
+    "Address": "6550 Mapleridge",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77081,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 303,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP Northeast",
+    "Address": "9606 Mesa Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77078,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 304,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Baker-Ripley Campus",
+    "Address": "6500 Rookin St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 305,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Sharpstown (LSS)",
+    "Address": "9401 Southwest Freeway",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 306,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Sharpstown Rookin",
+    "Address": "6677 Rookin",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 307,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Southwest Campus",
+    "Address": "6441 High Star",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 308,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP Gulfton",
+    "Address": "6565 De Moss Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77074,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 309,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP Southwest",
+    "Address": "4411 Anderson Rd",
+    "City": "Houston, TX",
+    "County": "Harris",
+    "ZIP": 77053,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 310,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP North Forest",
+    "Address": "6602 Winfield Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77050,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 311,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP Southside",
+    "Address": "5515 S Loop E",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77033,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 312,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP Brays Oaks",
+    "Address": "9000 W Bellfort Ave",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77031,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 313,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Santa Clara Campus",
+    "Address": "5616 Lawndale St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77023,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 314,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Lyons Campus",
+    "Address": "3811 Lyons Ave",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77020,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 315,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP Fifth Ward",
+    "Address": "1305 Benson",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77020,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 316,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - KIPP Southeast",
+    "Address": "8805 Ferndale",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77017,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 317,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - YES PREP East End",
+    "Address": "8329 Lawndale St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77012,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 318,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Branard Campus",
+    "Address": "401 Branard St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77006,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 319,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Montrose Campus",
+    "Address": "1415 California St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77006,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 320,
+    "uuid": "Legacy Community Health Services",
+    "SiteName": "Legacy - Montrose Center Clinic",
+    "Address": "401 Branard St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77006,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 321,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Family Care Center at Northwest",
+    "Address": "11111 Research Blvd",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78759,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 322,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Pediatrics at Stassney",
+    "Address": "730 W Stassney Ln",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78745,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 323,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Ben White Health Clinic",
+    "Address": "1221 W Ben White Blvd",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78704,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 324,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Round Rock OB/GYN",
+    "Address": "2300 Round Rock Ave",
+    "City": "Round Rock",
+    "County": "Williamson",
+    "ZIP": 78681,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 325,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Texas A&M Health Science Center",
+    "Address": "3950 N A.W. Grimes Blvd",
+    "City": "Round Rock",
+    "County": "Williamson",
+    "ZIP": 78665,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 326,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Round Rock Health Clinic",
+    "Address": "2120 N Mays",
+    "City": "Round Rock",
+    "County": "Williamson",
+    "ZIP": 78664,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 327,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Family Care Center at Marble Falls",
+    "Address": "802 Ave J",
+    "City": "Marble Falls",
+    "County": "Burnet",
+    "ZIP": 78654,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 328,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Dell Childrens, Circle of Care Pediatrics at Hutto",
+    "Address": "123 Ed Schmidt Blvd",
+    "City": "Hutto",
+    "County": "Williamson",
+    "ZIP": 78634,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 329,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Dental Center",
+    "Address": "2411 Williams Dr",
+    "City": "Georgetown",
+    "County": "Williamson",
+    "ZIP": 78628,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 330,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Lake Aire Medical Center",
+    "Address": "2423 Williams Dr",
+    "City": "Georgetown",
+    "County": "Williamson",
+    "ZIP": 78628,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 331,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Georgetown Womens Center",
+    "Address": "1900 Scenic Dr",
+    "City": "Georgetown",
+    "County": "Williamson",
+    "ZIP": 78626,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 332,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Dell Childrens, Circle of Care Pediatrics at Whitestone",
+    "Address": "1730 E Whitestone Blvd",
+    "City": "Cedar Park",
+    "County": "Williamson",
+    "ZIP": 78613,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 333,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Bastrop Community Health Clinic",
+    "Address": "605 Old Austin Hwy",
+    "City": "Bastrop",
+    "County": "Bastrop",
+    "ZIP": 78602,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 334,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Health Center at Taylor",
+    "Address": "601A Mallard Ln",
+    "City": "Taylor",
+    "County": "Williamson",
+    "ZIP": 76574,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 335,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Pediatrics at Clear Creek",
+    "Address": "2300 S Clear Creek",
+    "City": "Killeen",
+    "County": "Bell",
+    "ZIP": 76549,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 336,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Behavioral Health at Harker Heights",
+    "Address": "775 Indian Trl",
+    "City": "Harker Heights",
+    "County": "Bell",
+    "ZIP": 76548,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 337,
+    "uuid": "Lone Star Circle of Care",
+    "SiteName": "Lone Star Circle - Pediatrics at Harker Heights",
+    "Address": "200 Nola Ruth",
+    "City": "Harker Heights",
+    "County": "Bell",
+    "ZIP": 76548,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 338,
+    "uuid": "Lone Star Community Health Center dba Lone Star Family Health Center",
+    "SiteName": "Lone Star Family Health Center - Spring",
+    "Address": "440 Rayford Rd",
+    "City": "Spring",
+    "County": "Montgomery",
+    "ZIP": 77386,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 339,
+    "uuid": "Lone Star Community Health Center dba Lone Star Family Health Center",
+    "SiteName": "Lone Star Family Health Center - Willis",
+    "Address": "201 Lincoln Rdg",
+    "City": "Willis",
+    "County": "Montgomery",
+    "ZIP": 77318,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 340,
+    "uuid": "Lone Star Community Health Center dba Lone Star Family Health Center",
+    "SiteName": "Lone Star Family Health Center - Conroe",
+    "Address": "605 S Conroe Medical Dr",
+    "City": "Conroe",
+    "County": "Montgomery",
+    "ZIP": 77304,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 341,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Kilgore",
+    "Address": "1711 South Henderson Blvd",
+    "City": "Kilgore",
+    "County": "Gregg",
+    "ZIP": 75662,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 342,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Gilmer",
+    "Address": "602 Titus St",
+    "City": "Gilmer",
+    "County": "Upshur",
+    "ZIP": 75644,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 343,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Longview North",
+    "Address": "805 Medical Circle Dr",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75604,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 344,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Longview South",
+    "Address": "2430 S High St",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75602,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 345,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Longview",
+    "Address": "1107 E Marshall Ave",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75601,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 346,
+    "uuid": "Longview Wellness Center dba Wellness Pointe",
+    "SiteName": "Wellness Pointe - Longview Center",
+    "Address": "315 N Center St",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75601,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 347,
+    "uuid": "Los Barrios Unidos Community Clinic",
+    "SiteName": "Los Barrios Unidos Community Clinic - Family, Womens Health, Dental, and WIC",
+    "Address": "809 Singleton Blvd",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75212,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 348,
+    "uuid": "Los Barrios Unidos Community Clinic",
+    "SiteName": "Los Barrios Unidos Community Clinic - Pediatric Services",
+    "Address": "3111 Sylvan Ave",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75212,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 349,
+    "uuid": "Los Barrios Unidos Community Clinic",
+    "SiteName": "Los Barrios Unidos Community Clinic - Urban Inter-Tribal Center of Texas WIC Clinic",
+    "Address": "1283 Record Crossing",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75235,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 350,
+    "uuid": "Los Barrios Unidos Community Clinic",
+    "SiteName": "Los Barrios Unidos Community Clinic - Health Center",
+    "Address": "4732 W Illinois St",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75211,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 351,
+    "uuid": "Martin Luther King Jr. Family Clinic, Inc. dba Foremost Family Health Centers",
+    "SiteName": "Foremost Family Health Center",
+    "Address": "2922 Martin Luther King, Jr. Blvd",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75215,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 352,
+    "uuid": "Martin Luther King Jr. Family Clinic, Inc. dba Foremost Family Health Centers",
+    "SiteName": "Foremost Family Health Center - Balch Springs",
+    "Address": "3515 Shepherd Ln",
+    "City": "Balch Spings",
+    "County": "Dallas",
+    "ZIP": 75180,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 353,
+    "uuid": "Matagorda Episcopal Health Outreach Program",
+    "SiteName": "Matagorda Episcopal Health Outreach Program (MEHOP) - Administration",
+    "Address": "101 Avenue F N",
+    "City": "Bay City",
+    "County": "Matagorda",
+    "ZIP": 77414,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 354,
+    "uuid": "Matagorda Episcopal Health Outreach Program",
+    "SiteName": "MEHOP - Dental",
+    "Address": "205 B Ida Ave",
+    "City": "Bay City",
+    "County": "Matagorda",
+    "ZIP": 77414,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 355,
+    "uuid": "Matagorda Episcopal Health Outreach Program",
+    "SiteName": "MEHOP - Family Medicine & Behavioral Health",
+    "Address": "1700 Golden Ave",
+    "City": "Bay City",
+    "County": "Matagorda",
+    "ZIP": 77414,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 356,
+    "uuid": "Matagorda Episcopal Health Outreach Program",
+    "SiteName": "MEHOP - Women & Childr's",
+    "Address": "111 Ave F",
+    "City": "Bay City",
+    "County": "Matagorda",
+    "ZIP": 77414,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 357,
+    "uuid": "Matagorda Episcopal Health Outreach Program",
+    "SiteName": "MEHOP Clinic-Wharton",
+    "Address": "10141 US 59 Hwy",
+    "City": "Wharton",
+    "County": "Wharton",
+    "ZIP": 10000,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 358,
+    "uuid": "Midland Community Healthcare Services",
+    "SiteName": "Midland Community Healthcare Services - Women'sServices Clinic",
+    "Address": "400 Rosalind Redfern Grover Pkwy",
+    "City": "Midland",
+    "County": "Midland",
+    "ZIP": 79701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 359,
+    "uuid": "Midland Community Healthcare Services",
+    "SiteName": "Midland Community Healthcare Services - PBCC Sattelite Clinic",
+    "Address": "401 E Illinois Ave",
+    "City": "Midland",
+    "County": "Midland",
+    "ZIP": 79701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 360,
+    "uuid": "Midland Community Healthcare Services",
+    "SiteName": "Midland Community Healthcare Services - Coleman Dental Services",
+    "Address": "801 E Florida St",
+    "City": "Midland",
+    "County": "Midland",
+    "ZIP": 79701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 361,
+    "uuid": "Midland Community Healthcare Services",
+    "SiteName": "Midland Community Healthcare Services - Pediatric Services",
+    "Address": "2500 Delano St",
+    "City": "Midland",
+    "County": "Midland",
+    "ZIP": 79701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 362,
+    "uuid": "Midland Community Healthcare Services",
+    "SiteName": "Midland Community Healthcare Services - Viola M. Coleman Clinic",
+    "Address": "801 E Florida St",
+    "City": "Midland",
+    "County": "Midland",
+    "ZIP": 79701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 363,
+    "uuid": "Mission East Dallas",
+    "SiteName": "Mission East Dallas - Medical",
+    "Address": "2914 Oates Dr",
+    "City": "Dallas",
+    "County": "Dallas",
+    "ZIP": 75228,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 364,
+    "uuid": "Mission East Dallas",
+    "SiteName": "Mission East Dallas - Dental",
+    "Address": "4550 Gus Thomasson Rd",
+    "City": "Mesquite",
+    "County": "Dallas",
+    "ZIP": 75150,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 365,
+    "uuid": "Mt. Enterprise Community Health Clinic dba Crossroads Family Care",
+    "SiteName": "Crossroads Family Care - Palestine",
+    "Address": "205 E Brazos St",
+    "City": "Palestine",
+    "County": "Anderson",
+    "ZIP": 75801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 366,
+    "uuid": "Mt. Enterprise Community Health Clinic dba Crossroads Family Care",
+    "SiteName": "Crossroads Family Care - Mt. Enterprise",
+    "Address": "P.O. Box 489",
+    "City": "Mt. Enterprise",
+    "County": "Rusk",
+    "ZIP": 75681,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 367,
+    "uuid": "Mt. Enterprise Community Health Clinic dba Crossroads Family Care",
+    "SiteName": "Crossroads Family Care - Dental",
+    "Address": "1115 Hwy 259 S",
+    "City": "Henderson",
+    "County": "Rusk",
+    "ZIP": 75654,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 368,
+    "uuid": "Mt. Enterprise Community Health Clinic dba Crossroads Family Care",
+    "SiteName": "Crossroads Family Care - Henderson",
+    "Address": "1115 Hwy 259 S",
+    "City": "Henderson",
+    "County": "Rusk",
+    "ZIP": 75654,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 369,
+    "uuid": "North Central Texas Community Health Care Center, Inc. dba Community Healthcare Center",
+    "SiteName": "Community Healthcare Center",
+    "Address": "200 Martin Luther King, Jr. Blvd",
+    "City": "Wichita Falls",
+    "County": "Wichita",
+    "ZIP": 76307,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 370,
+    "uuid": "North Central Texas Community Health Care Center, Inc. dba Community Healthcare Center",
+    "SiteName": "Community Healthcare Center - Family Medicine Residency Site",
+    "Address": "1301 3rd St",
+    "City": "Wichita Falls",
+    "County": "Wichita",
+    "ZIP": 76301,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 371,
+    "uuid": "North Central Texas Community Health Care Center, Inc. dba Community Healthcare Center",
+    "SiteName": "Community Healthcare Center - Juarez Medical Clinic",
+    "Address": "1000 A Juarez St",
+    "City": "Wichita Falls",
+    "County": "Wichita",
+    "ZIP": 76301,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 372,
+    "uuid": "North Central Texas Community Health Care Center, Inc. dba Community Healthcare Center",
+    "SiteName": "Community Healthcare Center - Phyllis Hiraki Dental Clinic",
+    "Address": "110 Lee St",
+    "City": "Wichita Falls",
+    "County": "Wichita",
+    "ZIP": 76301,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 373,
+    "uuid": "North Central Texas Community Health Care Center, Inc. dba Community Healthcare Center",
+    "SiteName": "Community Healthcare Center - McKinney Clinic at Virginia Parkway",
+    "Address": "120 S Central Expressway",
+    "City": "McKinney",
+    "County": "Collin",
+    "ZIP": 75070,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 374,
+    "uuid": "North Texas Area Community Health Centers, Inc.",
+    "SiteName": "North Texas Area Community Health Centers - Northside Community Health Center",
+    "Address": "2106 N Main St",
+    "City": "Fort Worth",
+    "County": "Tarrant",
+    "ZIP": 76164,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 375,
+    "uuid": "North Texas Area Community Health Centers, Inc.",
+    "SiteName": "North Texas Area Community Health Centers - Southeast Community Health Center",
+    "Address": "2909 Mitchell Blvd",
+    "City": "Fort Worth",
+    "County": "Tarrant",
+    "ZIP": 76105,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 376,
+    "uuid": "North Texas Area Community Health Centers, Inc.",
+    "SiteName": "North Texas Area Community Health Centers - Arlington Community Health Center",
+    "Address": "979 N Cooper",
+    "City": "Arlington",
+    "County": "Tarrant",
+    "ZIP": 76011,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 377,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - PSJA School Based Clinic",
+    "Address": "2900 N Raul Longoria Rd",
+    "City": "San Juan",
+    "County": "Hidalgo",
+    "ZIP": 78589,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 378,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - San Juan",
+    "Address": "801 W 1st St",
+    "City": "San Juan",
+    "County": "Hidalgo",
+    "ZIP": 78589,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 379,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Women'sHealth Clinic",
+    "Address": "806 W 3rd St",
+    "City": "San Juan",
+    "County": "Hidalgo",
+    "ZIP": 78589,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 380,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Roma",
+    "Address": "2891 E Grant",
+    "City": "Roma",
+    "County": "Starr",
+    "ZIP": 78584,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 381,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Rio Grande City",
+    "Address": "600 N Garza St",
+    "City": "Rio Grande City",
+    "County": "Starr",
+    "ZIP": 78582,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 382,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Memorial",
+    "Address": "201 S Los Ebanos Blvd",
+    "City": "Alton",
+    "County": "Hidalgo",
+    "ZIP": 78574,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 383,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Mission",
+    "Address": "611 N Bryan Rd",
+    "City": "Mission",
+    "County": "Hidalgo",
+    "ZIP": 78572,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 384,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Mercedes",
+    "Address": "1500 First St",
+    "City": "Mercedes",
+    "County": "Hidalgo",
+    "ZIP": 78570,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 385,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - San Carlos",
+    "Address": "300 N 86th St",
+    "City": "Edinburg",
+    "County": "Hidalgo",
+    "ZIP": 78541,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 386,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Edcouch",
+    "Address": "1518 E Santa Rosa",
+    "City": "Edcouch",
+    "County": "Hidalgo",
+    "ZIP": 78538,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 387,
+    "uuid": "Nuestra Clinica del Valle",
+    "SiteName": "Nuestra Clinica del Valle - Donna",
+    "Address": "301 S 17th St",
+    "City": "Donna",
+    "County": "Hidalgo",
+    "ZIP": 78537,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 388,
+    "uuid": "Pasadena Health Center",
+    "SiteName": "Pasadena Health Center - Dental",
+    "Address": "908 Southmore",
+    "City": "Pasadena",
+    "County": "Harris",
+    "ZIP": 77502,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 389,
+    "uuid": "Pasadena Health Center",
+    "SiteName": "Pasadena Health Center - Medical",
+    "Address": "908 Southmore",
+    "City": "Pasadena",
+    "County": "Harris",
+    "ZIP": 77502,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 390,
+    "uuid": "People'sCommunity Clinic",
+    "SiteName": "People'sCommunity Clinic",
+    "Address": "1101 Camino la Costa",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78752,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 391,
+    "uuid": "People'sCommunity Clinic",
+    "SiteName": "People'sCommunity Clinic - Austin Children'sShelter",
+    "Address": "4800 Manor Rd",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78723,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 392,
+    "uuid": "People'sCommunity Clinic",
+    "SiteName": "People'sCommunity Clinic - Center for Women'sHealth",
+    "Address": "2909 N IH 35",
+    "City": "Austin",
+    "County": "Travis",
+    "ZIP": 78722,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 393,
+    "uuid": "People'sCommunity Clinic",
+    "SiteName": "People'sCommunity Clinic - Manor Mustang Health Center",
+    "Address": "10335 US Hwy 290 E",
+    "City": "Manor",
+    "County": "Travis",
+    "ZIP": 78653,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 394,
+    "uuid": "Presidio CountyHealth Services, Inc. dba Preventative Care Health Services",
+    "SiteName": "Preventative Care - Presidio CountyMedical Clinic",
+    "Address": "1501 N Erma Ave",
+    "City": "Presidio",
+    "County": "Presidio",
+    "ZIP": 79845,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 395,
+    "uuid": "Presidio CountyHealth Services, Inc. dba Preventative Care Health Services",
+    "SiteName": "Preventative Care - Marfa Community Health Clinic",
+    "Address": "406 S Summer St",
+    "City": "Marfa",
+    "County": "Presidio",
+    "ZIP": 79843,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 396,
+    "uuid": "Presidio CountyHealth Services, Inc. dba Preventative Care Health Services",
+    "SiteName": "Preventative Care - Family Health Services of Alpine",
+    "Address": "1605 N Fort Davis Hwy",
+    "City": "Alpine",
+    "County": "Brewster",
+    "ZIP": 79830,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 397,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Montana Vista Health Center",
+    "Address": "14900 Greg Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79938,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 398,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Montana Vista Mobile Dental Clinic",
+    "Address": "14900 Greg Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79938,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 399,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - La Clinica Guadalupana",
+    "Address": "901 Ascension",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79928,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 400,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Family Service of El Paso",
+    "Address": "6040 Surety Dr",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79905,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 401,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Mobile Clinic",
+    "Address": "3612 Rivera Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79905,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 402,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Roger Naftzger Clinic",
+    "Address": "3612 Pera Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79905,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 403,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Northeast Dental Clinic",
+    "Address": "4875 Maxwell Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79904,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 404,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Northeast Family Practice",
+    "Address": "4875 Maxwell Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79904,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 405,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Hueco Health Center",
+    "Address": "3501 Hueco Ave",
+    "City": "El Paso",
+    "County": "El Paso",
+    "ZIP": 79903,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 406,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Sierra Blanca Clinic",
+    "Address": "500 E Walling",
+    "City": "Sierra Blanca",
+    "County": "Hudspeth",
+    "ZIP": 79851,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 407,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Fort Hancock Clinic",
+    "Address": "561 S Knox",
+    "City": "Fort Hancock",
+    "County": "Hudspeth",
+    "ZIP": 79839,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 408,
+    "uuid": "Project Vida Health Center",
+    "SiteName": "Project Vida Health Center - Dell CityClinic",
+    "Address": "104 S Dodson St",
+    "City": "Dell City",
+    "County": "Hudspeth",
+    "ZIP": 79837,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 409,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Amarillo Martin Road Medical and Dental Clinic",
+    "Address": "850 Martin Rd",
+    "City": "Amarillo",
+    "County": "Potter",
+    "ZIP": 79107,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 410,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Plainview Administration and Dental Clinic",
+    "Address": "2801 W 8th St",
+    "City": "Plainview",
+    "County": "Hale",
+    "ZIP": 79072,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 411,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Plainview Anderson Suites",
+    "Address": "2601 Dimmitt Rd",
+    "City": "Plainview",
+    "County": "Hale",
+    "ZIP": 79072,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 412,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Hereford Medical and Dental Clinic",
+    "Address": "125 W Park Ave",
+    "City": "Hereford",
+    "County": "Deaf Smith",
+    "ZIP": 79045,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 413,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Friona WIC Clinic",
+    "Address": "616 Euclid",
+    "City": "Friona",
+    "County": "Parmer",
+    "ZIP": 79037,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 414,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Ralls WIC Clinic",
+    "Address": "623 Tilford",
+    "City": "Ralls",
+    "County": "Crosby",
+    "ZIP": 79357,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 415,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Muleshoe WIC Clinic",
+    "Address": "104 W Second St",
+    "City": "Muleshoe",
+    "County": "Bailey",
+    "ZIP": 79347,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 416,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Littlefield WIC Clinic",
+    "Address": "500 E 6th St",
+    "City": "Littlefield",
+    "County": "Lamb",
+    "ZIP": 79339,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 417,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Floydada WIC Clinic",
+    "Address": "319 S King Cotton Row",
+    "City": "Floydada",
+    "County": "Floyd",
+    "ZIP": 79235,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 418,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Amarillo Outreach Clinic",
+    "Address": "723 N Taylor",
+    "City": "Amarillo",
+    "County": "Potter",
+    "ZIP": 79107,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 419,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Amarillo Coulter St Clinic",
+    "Address": "1301 S Coulter St",
+    "City": "Amarillo",
+    "County": "Potter",
+    "ZIP": 79106,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 420,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Tulia WIC Clinic",
+    "Address": "104 SE 2nd St",
+    "City": "Tulia",
+    "County": "Swisher",
+    "ZIP": 79088,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 421,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Plainview WIC Clinic",
+    "Address": "2801 W 8th St",
+    "City": "Plainview",
+    "County": "Hale",
+    "ZIP": 79072,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 422,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Olton WIC Clinic",
+    "Address": "206 E 11th",
+    "City": "Olton",
+    "County": "Lamb",
+    "ZIP": 79064,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 423,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Hereford WIC Clinic",
+    "Address": "125 W Park Ave",
+    "City": "Hereford",
+    "County": "Deaf Smith",
+    "ZIP": 79045,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 424,
+    "uuid": "Regence Health Network, Inc.",
+    "SiteName": "Regence - Dimmitt WIC Clinic",
+    "Address": "113 W Bedford",
+    "City": "Dimmitt",
+    "County": "Castro",
+    "ZIP": 79027,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 425,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Merkel",
+    "Address": "217 Edwards St",
+    "City": "Merkel",
+    "County": "Taylor",
+    "ZIP": 79536,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 426,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Merkel Dental",
+    "Address": "217 Edwards St",
+    "City": "Merkel",
+    "County": "Taylor",
+    "ZIP": 79536,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 427,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Clyde",
+    "Address": "1712 N Access Rd 79510",
+    "City": "Clyde",
+    "County": "Taylor",
+    "ZIP": 79510,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 428,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Clyde Dental",
+    "Address": "1712 N Access Rd",
+    "City": "Clyde",
+    "County": "Callahan",
+    "ZIP": 79510,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 429,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Baird",
+    "Address": "128 W 4th St",
+    "City": "Baird",
+    "County": "Callahan",
+    "ZIP": 79504,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 430,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Cross Plains",
+    "Address": "301 S Main",
+    "City": "Cross Plains",
+    "County": "Callahan",
+    "ZIP": 76443,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 431,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Cross Plains Dental",
+    "Address": "200 N Main St",
+    "City": "Cross Plains",
+    "County": "Callahan",
+    "ZIP": 76443,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 432,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Albany",
+    "Address": "725 Pate St",
+    "City": "Albany",
+    "County": "Shackelford",
+    "ZIP": 76430,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 433,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Albany Dental",
+    "Address": "725 Pate St",
+    "City": "Albany",
+    "County": "Shackelford",
+    "ZIP": 76430,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 434,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Breckenridge",
+    "Address": "2802 W Walker St",
+    "City": "Breckenridge",
+    "County": "Stephens",
+    "ZIP": 76424,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 435,
+    "uuid": "Shackelford CountyCommunity Resource Center dba ResourceCare",
+    "SiteName": "ResourceCare - Breckenridge Dental",
+    "Address": "2802 W Walker St",
+    "City": "Breckenridge",
+    "County": "Stephens",
+    "ZIP": 76424,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 436,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - North Forest/Humble Clinic",
+    "Address": "14929 Old Humble Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77396,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 437,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - Hillcroft (Southwest)",
+    "Address": "14087 S Main St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77035,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 438,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - MLK",
+    "Address": "8610 Martin Luther King, Jr. Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77033,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 439,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - 96 Berry Rd",
+    "Address": "96 Berry Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77022,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 440,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - Acres Home",
+    "Address": "1102A Pinemont",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77018,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 441,
+    "uuid": "South Central Houston Action Council, Inc. dba Central Care Integrated Health Services",
+    "SiteName": "Central Care Integrated Health Services - Riverside",
+    "Address": "3315 Delano St",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77004,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 442,
+    "uuid": "South Plains Rural Health Services, Inc.",
+    "SiteName": "South Plains Rural Health Services - Howard CountyCommunity Health Center",
+    "Address": "1300 Gregg St",
+    "City": "Big Spring",
+    "County": "Howard",
+    "ZIP": 79720,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 443,
+    "uuid": "South Plains Rural Health Services, Inc.",
+    "SiteName": "South Plains Rural Health Services",
+    "Address": "1000 FM 300",
+    "City": "Levelland",
+    "County": "Hockley",
+    "ZIP": 79336,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 444,
+    "uuid": "South Plains Rural Health Services, Inc.",
+    "SiteName": "South Plains Rural Health Services - Dental",
+    "Address": "1000 FM 300",
+    "City": "Levelland",
+    "County": "Hockley",
+    "ZIP": 79336,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 445,
+    "uuid": "South Plains Rural Health Services, Inc.",
+    "SiteName": "South Plains Rural Health Services - Lamesa Dental",
+    "Address": "1005 N 16th St",
+    "City": "Lamesa",
+    "County": "Dawson",
+    "ZIP": 79331,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 446,
+    "uuid": "South Plains Rural Health Services, Inc.",
+    "SiteName": "South Plains Rural Health Services - Lamesa Primary Care Clinic",
+    "Address": "1502 N Avenue K",
+    "City": "Lamesa",
+    "County": "Dawson",
+    "ZIP": 79331,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 447,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Carrizo Springs Medical/Dental",
+    "Address": "902 S 5th St",
+    "City": "Carrizo Springs",
+    "County": "Dimmit",
+    "ZIP": 78834,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 448,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Devine Medical/Dental",
+    "Address": "1010 W Hondo Ave",
+    "City": "Devine",
+    "County": "Medina",
+    "ZIP": 78016,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 449,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Administration",
+    "Address": "611 Thornton",
+    "City": "Cotulla",
+    "County": "La Salle",
+    "ZIP": 78014,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 450,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Cotulla Medical/Dental",
+    "Address": "105 S Stewart",
+    "City": "Cotulla",
+    "County": "La Salle",
+    "ZIP": 78014,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 451,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Hondo Medical",
+    "Address": "2912 Avenue E",
+    "City": "Hondo",
+    "County": "Medina",
+    "ZIP": 78861,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 452,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Eagle Pass Wellness Center",
+    "Address": "2250 N Veterans Blvd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 453,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Carrizo Springs Wellness Center",
+    "Address": "902-B South 5th Street",
+    "City": "Carrizo Springs",
+    "County": "Dimmit",
+    "ZIP": 78834,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 454,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Big Wells Medical",
+    "Address": "1502 Grand Ave",
+    "City": "Big Wells",
+    "County": "Dimmit",
+    "ZIP": 78830,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 455,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Uvalde Wellness Center",
+    "Address": "1815 Garnerfield Rd",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 456,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Pearsall Medical/Dental",
+    "Address": "150 Medical Dr",
+    "City": "Pearsall",
+    "County": "Frio",
+    "ZIP": 78061,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 457,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Pearsall Wellness Center",
+    "Address": "158 Medical Dr",
+    "City": "Pearsall",
+    "County": "Frio",
+    "ZIP": 78061,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 458,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Encinal Medical",
+    "Address": "100 S Main St",
+    "City": "Encinal",
+    "County": "La Salle",
+    "ZIP": 78019,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 459,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Dilley Medical",
+    "Address": "606 W Leona",
+    "City": "Dilley",
+    "County": "Frio",
+    "ZIP": 78017,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 460,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Dilley Wellness Center",
+    "Address": "606 W Leona",
+    "City": "Dilley",
+    "County": "Frio",
+    "ZIP": 78017,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 461,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Devine Wellness Center",
+    "Address": "1010 Hondo Ave",
+    "City": "Devine",
+    "County": "Medina",
+    "ZIP": 78016,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 462,
+    "uuid": "South Texas Rural Health Services, Inc.",
+    "SiteName": "South Texas Rural Health Services - Cotulla Wellness Center",
+    "Address": "105 S Stewart",
+    "City": "Cotulla",
+    "County": "La Salle",
+    "ZIP": 78014,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 463,
+    "uuid": "Southwest Texas Network",
+    "SiteName": "Community Health Development, Inc.",
+    "Address": "201 South Evans Street",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 464,
+    "uuid": "Southwest Texas Network",
+    "SiteName": "Atascosa Health Center",
+    "Address": "310 West Oaklawn",
+    "City": "Pleasanton",
+    "County": "Atascosa",
+    "ZIP": 78064,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 465,
+    "uuid": "Southwest Texas Network",
+    "SiteName": "Frontera Healthcare Network",
+    "Address": "604 Eaker Street, P.O. Box 989",
+    "City": "Eden",
+    "County": "Concho",
+    "ZIP": 76837,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 466,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Woman & Child Health Center of Longview",
+    "Address": "402 N 7th St",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75601,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 467,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Tyler Care Clinic",
+    "Address": "1300 Clinic Dr",
+    "City": "Tyler",
+    "County": "Smith",
+    "ZIP": 75701,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 468,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Jim Meyers Comprehensive Health Center",
+    "Address": "410 N 4th St",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75602,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 469,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Med Plaza Pediatrics",
+    "Address": "703 E Marshall Ave",
+    "City": "Longview",
+    "County": "Gregg",
+    "ZIP": 75601,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 470,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Texarkana Care Clinic",
+    "Address": "1102 Main St",
+    "City": "Texarkana",
+    "County": "Bowie",
+    "ZIP": 75501,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 471,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - Paris Care Clinic",
+    "Address": "3150 Clarksville St",
+    "City": "Paris",
+    "County": "Lamar",
+    "ZIP": 75460,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 472,
+    "uuid": "Special Health Resources for Texas",
+    "SiteName": "Special Health Resources - All for Kids Clinic",
+    "Address": "300 E 6th St",
+    "City": "Texarkana",
+    "County": "Bowie",
+    "ZIP": 71854,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 473,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - Katy Clinic",
+    "Address": "5502 1st St",
+    "City": "Katy",
+    "County": "Harris",
+    "ZIP": 77493,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 474,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - West Houston Clinic",
+    "Address": "19333 Clay Rd",
+    "City": "Katy",
+    "County": "Harris",
+    "ZIP": 77449,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 475,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - Cy-Fair Clinic",
+    "Address": "7777 Westgreen Blvd",
+    "City": "Cypress",
+    "County": "Harris",
+    "ZIP": 77433,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 476,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - Pitner Clinic",
+    "Address": "8575 Pitner Rd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77080,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 477,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - Hillendahl Clinic",
+    "Address": "1615 Hillendahl Blvd",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77055,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 478,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - WholeLife Service Center",
+    "Address": "1905 Jacquelyn Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77055,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 479,
+    "uuid": "Spring Branch Community Health Center",
+    "SiteName": "Spring Branch Community Health Center - Administraton",
+    "Address": "800 W Sam Houston Pkwy S",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77042,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 480,
+    "uuid": "St. Hope Foundation, Inc.",
+    "SiteName": "St. Hope - Texas CityClinic",
+    "Address": "6801 Emmett F. Lowry Expy",
+    "City": "Texas City",
+    "County": "Galveston",
+    "ZIP": 77591,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 481,
+    "uuid": "St. Hope Foundation, Inc.",
+    "SiteName": "St. Hope - Sugarland Community Health Center",
+    "Address": "13020 S Dairy Ashford Rd",
+    "City": "Sugarland",
+    "County": "Fort Bend",
+    "ZIP": 77478,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 482,
+    "uuid": "St. Hope Foundation, Inc.",
+    "SiteName": "St. Hope - Bellaire (Houston) Community Health Center",
+    "Address": "6800 W Loop South",
+    "City": "Bellaire",
+    "County": "Harris",
+    "ZIP": 77401,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 483,
+    "uuid": "St. Hope Foundation, Inc.",
+    "SiteName": "St. Hope - Conroe Community Health Center",
+    "Address": "1414 S Frazier",
+    "City": "Conroe",
+    "County": "Montgomery",
+    "ZIP": 77301,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 484,
+    "uuid": "St. Hope Foundation, Inc.",
+    "SiteName": "St. Hope - Greenspoint Community Health Center",
+    "Address": "255 Northpoint Dr",
+    "City": "Houston",
+    "County": "Harris",
+    "ZIP": 77060,
+    "site_type": "Unknown"
+  },
+  {
+    "index": 485,
+    "uuid": "Stephen F. Austin Community Health Center",
+    "SiteName": "Stephen F. Austin Community Health Center - Freeport Community Health Center",
+    "Address": "905 N Gulf Blvd",
+    "City": "Freeport",
+    "County": "Brazoria",
+    "ZIP": 77541,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 486,
+    "uuid": "Stephen F. Austin Community Health Center",
+    "SiteName": "Stephen F. Austin Community Health Center - Administration",
+    "Address": "1612 Callaway",
+    "City": "Alvin",
+    "County": "Brazoria",
+    "ZIP": 77511,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 487,
+    "uuid": "Stephen F. Austin Community Health Center",
+    "SiteName": "Stephen F. Austin Community Health Center - Adoue Family Health Center",
+    "Address": "1111 W Adoue St",
+    "City": "Alvin",
+    "County": "Brazoria",
+    "ZIP": 77511,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 488,
+    "uuid": "Stephen F. Austin Community Health Center",
+    "SiteName": "Stephen F. Austin Community Health Center - Women and Children'sHealth Center",
+    "Address": "218 E House St",
+    "City": "Alvin",
+    "County": "Brazoria",
+    "ZIP": 77511,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 489,
+    "uuid": "Su Clinica Familiar dba Su Clinica",
+    "SiteName": "Su Clinica - Santa Rosa Clinic",
+    "Address": "Hwy 107 & La Feria Ave",
+    "City": "Santa Rosa",
+    "County": "Cameron",
+    "ZIP": 78593,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 490,
+    "uuid": "Su Clinica Familiar dba Su Clinica",
+    "SiteName": "Su Clinica - Santa Rosa Dental",
+    "Address": "Hwy 107 & La Feria Ave",
+    "City": "Santa Rosa",
+    "County": "Cameron",
+    "ZIP": 78593,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 491,
+    "uuid": "Su Clinica Familiar dba Su Clinica",
+    "SiteName": "Su Clinica - Raymondville Clinic",
+    "Address": "131 FM 3168",
+    "City": "Raymondville",
+    "County": "Willacy",
+    "ZIP": 78580,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 492,
+    "uuid": "Su Clinica Familiar dba Su Clinica",
+    "SiteName": "Su Clinica - Harlingen Clinic",
+    "Address": "1706 Treasure Hills Blvd",
+    "City": "Harlingen",
+    "County": "Cameron",
+    "ZIP": 78550,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 493,
+    "uuid": "Su Clinica Familiar dba Su Clinica",
+    "SiteName": "Su Clinica - Brownsville Clinic",
+    "Address": "105 E Alton Gloor",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78520,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 494,
+    "uuid": "Tejas Health Care",
+    "SiteName": "Tejas Health Care",
+    "Address": "753 E Travis St",
+    "City": "La Grange",
+    "County": "Fayette",
+    "ZIP": 78945,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 495,
+    "uuid": "Tejas Health Care",
+    "SiteName": "Tejas Health Care - Dental",
+    "Address": "220 W Guadalupe St",
+    "City": "La Grange",
+    "County": "Fayette",
+    "ZIP": 78945,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 496,
+    "uuid": "Tejas Health Care",
+    "SiteName": "Tejas Health Care - Fayette CountyWIC Clinic",
+    "Address": "275 Ellinger Rd",
+    "City": "La Grange",
+    "County": "Fayette",
+    "ZIP": 78945,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 497,
+    "uuid": "Tejas Health Care",
+    "SiteName": "Tejas Health Care - Giddings",
+    "Address": "185 Decker Dr",
+    "City": "Giddings",
+    "County": "Lee",
+    "ZIP": 78945,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 498,
+    "uuid": "Tejas Health Care",
+    "SiteName": "Tejas Health Care - Lee CountyWIC Clinic",
+    "Address": "185 Decker Dr",
+    "City": "Giddings",
+    "County": "Lee",
+    "ZIP": 78942,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 499,
+    "uuid": "Texas Tech University Health Sciences Center dba Larry Combest Community Health and Wellness Center",
+    "SiteName": "Larry Combest Community Health - Abilene Community Health Center",
+    "Address": "1749 Pine St",
+    "City": "Abilene",
+    "County": "Taylor",
+    "ZIP": 79601,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 500,
+    "uuid": "Texas Tech University Health Sciences Center dba Larry Combest Community Health and Wellness Center",
+    "SiteName": "Larry Combest Community Health - Central Community Health Center",
+    "Address": "2424 50th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79412,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 501,
+    "uuid": "Texas Tech University Health Sciences Center dba Larry Combest Community Health and Wellness Center",
+    "SiteName": "Larry Combest Community Health and Wellness Center",
+    "Address": "301 40th St",
+    "City": "Lubbock",
+    "County": "Lubbock",
+    "ZIP": 79404,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 502,
+    "uuid": "Triangle Area Network",
+    "SiteName": "Triangle Area Network - Beaumont",
+    "Address": "1495 N 7th St",
+    "City": "Beaumont",
+    "County": "Jefferson",
+    "ZIP": 77702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 503,
+    "uuid": "Triangle Area Network",
+    "SiteName": "Triangle Area Network - Orange",
+    "Address": "3737 N 16th St",
+    "City": "Orange",
+    "County": "Orange",
+    "ZIP": 77632,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 504,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - Houston Pediatric Clinic",
+    "Address": "214 E Houston",
+    "City": "Tyler",
+    "County": "Smith",
+    "ZIP": 75702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 505,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - Jacksonville Clinic",
+    "Address": "510 E Commerce St",
+    "City": "Jacksonville",
+    "County": "Cherokee",
+    "ZIP": 75766,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 506,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - Athens Clinic",
+    "Address": "1001 N Palestine",
+    "City": "Athens",
+    "County": "Henderson",
+    "ZIP": 75751,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 507,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - Administration Annex",
+    "Address": "523 S Fannin Ave",
+    "City": "Tyler",
+    "County": "Smith",
+    "ZIP": 75702,
+    "site_type": "Administrative only"
+  },
+  {
+    "index": 508,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - Glenwood Clinic",
+    "Address": "928 N Glenwood Blvd",
+    "City": "Tyler",
+    "County": "Smith",
+    "ZIP": 75702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 509,
+    "uuid": "Tyler Family Circle of Care dba FAMILY Circle of Care",
+    "SiteName": "FAMILY Circle of Care - North Broadway Pediatric Clinic",
+    "Address": "2990 N Broadway",
+    "City": "Tyler",
+    "County": "Smith",
+    "ZIP": 75702,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 510,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Eidson Road Clinic",
+    "Address": "1175 Eidson Rd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 511,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Eidson Road WIC Program",
+    "Address": "1175 Eidson Rd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 512,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - El Indio Hwy Clinic",
+    "Address": "4018 El Indio Hwy",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 513,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Veterans Blvd",
+    "Address": "2525 N Veterans Blvd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 514,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Veterans Blvd Dental Clinic",
+    "Address": "2525 N Veterans Blvd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 515,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Veterans Blvd WIC Program",
+    "Address": "2525 N Veterans Blvd",
+    "City": "Eagle Pass",
+    "County": "Maverick",
+    "ZIP": 78852,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 516,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Bedell Avenue Clinic",
+    "Address": "2209 Bedell Ave",
+    "City": "Del Rio",
+    "County": "Val Verde",
+    "ZIP": 78840,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 517,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Main Street",
+    "Address": "913 S Main St",
+    "City": "Del Rio",
+    "County": "Val Verde",
+    "ZIP": 78840,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 518,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - San Felipe Clinic",
+    "Address": "1117 W De La Rosa",
+    "City": "Del Rio",
+    "County": "Val Verde",
+    "ZIP": 78840,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 519,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - San Felipe Dental Clinic",
+    "Address": "1117 W De La Rosa",
+    "City": "Del Rio",
+    "County": "Val Verde",
+    "ZIP": 78840,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 520,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - Brackettville",
+    "Address": "201 James St",
+    "City": "Brackettville",
+    "County": "Kinney",
+    "ZIP": 78832,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 521,
+    "uuid": "United Medical Centers",
+    "SiteName": "United Medical Centers - James Street",
+    "Address": "202 James St",
+    "City": "Brackettville",
+    "County": "Kinney",
+    "ZIP": 78832,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 522,
+    "uuid": "Valley AIDS Council, Inc.",
+    "SiteName": "Valley AIDS Council  - Westbrook Clinic, Camelot Plaza",
+    "Address": "300 S 2nd St",
+    "City": "McAllen",
+    "County": "Hidalgo",
+    "ZIP": 79501,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 523,
+    "uuid": "Valley AIDS Council, Inc.",
+    "SiteName": "Valley AIDS Council - Westbrook Clinic, 2nd Street",
+    "Address": "2306 Camelot Plaza Cir",
+    "City": "Harlingen",
+    "County": "Cameron",
+    "ZIP": 78550,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 524,
+    "uuid": "Valley AIDS Council, Inc.",
+    "SiteName": "Valley AIDS Council",
+    "Address": "857 E Washington",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78520,
+    "site_type": "Other services only"
+  },
+  {
+    "index": 525,
+    "uuid": "Valley Primary Care Network",
+    "SiteName": "Nuestra Clinica Del Valle",
+    "Address": "801 W. 1st Street",
+    "City": "San Juan",
+    "County": "Hidalgo",
+    "ZIP": 78589,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 526,
+    "uuid": "Valley Primary Care Network",
+    "SiteName": "Su Clinica Familiar",
+    "Address": "1706 Treasure Hills Blvd.",
+    "City": "Harlingen",
+    "County": "Cameron",
+    "ZIP": 78550,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 527,
+    "uuid": "Valley Primary Care Network",
+    "SiteName": "Brownsville Community Health Center",
+    "Address": "191 East Price Road",
+    "City": "Brownsville",
+    "County": "Cameron",
+    "ZIP": 78521,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 528,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - LPISD Community & School Based Health Clinic",
+    "Address": "Hwy 57 & Edith St",
+    "City": "La Pryor",
+    "County": "Zavala",
+    "ZIP": 78872,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 529,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - CCISD School Based Clinic",
+    "Address": "909 Airport Dr",
+    "City": "Crystal City",
+    "County": "Zavala",
+    "ZIP": 78839,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 530,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - WIC Project #19-01",
+    "Address": "308 Cesar Chavez Ave",
+    "City": "Crystal City",
+    "County": "Zavala",
+    "ZIP": 78839,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 531,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud Health Systems, Inc.",
+    "Address": "308 Cesar Chavez Ave",
+    "City": "Crystal City",
+    "County": "Zavala",
+    "ZIP": 78839,
+    "site_type": "Primary Care Site"
+  },
+  {
+    "index": 532,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - WIC Project #19-02",
+    "Address": "109-B N 1st",
+    "City": "Carrizo Springs",
+    "County": "Dimmit",
+    "ZIP": 78834,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 533,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - WIC Project #19-04",
+    "Address": "400 S Getty St",
+    "City": "Uvalde",
+    "County": "Uvalde",
+    "ZIP": 78801,
+    "site_type": "WIC only"
+  },
+  {
+    "index": 534,
+    "uuid": "Vida y Salud Health Systems, Inc.",
+    "SiteName": "Vida y Salud - WIC Project #19-03",
+    "Address": "216 N Center St",
+    "City": "Cotulla",
+    "County": "La Salle",
+    "ZIP": 78014,
+    "site_type": "WIC only"
+  }
+]

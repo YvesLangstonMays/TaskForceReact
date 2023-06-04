@@ -1,12 +1,6 @@
-import {
-  JSXElementConstructor,
-  ReactElement,
-  ReactFragment,
-  ReactPortal,
-  useEffect,
-  useState,
-} from "react";
+import { useEffect, useState } from "react";
 import SortSelector from "./SortSelector";
+import Listdata from "../data/Finals.json";
 
 const ListTransitionBox = () => {
   const [data, setData] = useState([]);
@@ -14,7 +8,7 @@ const ListTransitionBox = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/Table/")
+    fetch("http://127.0.0.1:8000/List/")
       .then((data) => data.json())
       .then((data) => {
         setData(data);
@@ -30,7 +24,9 @@ const ListTransitionBox = () => {
 
   return (
     <>
-      <div className="listDiv">{data[0]}</div>
+      <div className="listDiv">
+        <SortSelector data={Listdata}></SortSelector>
+      </div>
     </>
   );
 };

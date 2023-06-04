@@ -10,7 +10,6 @@ import pandas as pd
 from django.shortcuts import HttpResponse
 
 
-
 serializer_class = WebsiteSerializer
 
 @api_view(['GET'])
@@ -26,10 +25,10 @@ def zipDetail(request, pk):
 
 @api_view(['GET'])
 def databaseList(self):
-    siteNames = list(Sites.objects.filter('Site_Name'))
-    counties = list(Sites.objects.all().values_list('County', flat=True))
-    addresses = list(Sites.objects.all().values_list('Address_1', flat=True))
-    zipCodes = list(Sites.objects.all().values_list('ZIP', flat=True))
+    siteNames = list(Sites.objects.all()[1:].values_list('Site_Name', flat=True))
+    counties = list(Sites.objects.all()[1:].values_list('County', flat=True))
+    addresses = list(Sites.objects.all()[1:].values_list('Address_1', flat=True))
+    zipCodes = list(Sites.objects.all()[1:].values_list('ZIP', flat=True))
     siteList = [siteNames, counties, addresses, zipCodes]
     return Response(siteList)
 
