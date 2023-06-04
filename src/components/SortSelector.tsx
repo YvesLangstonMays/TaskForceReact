@@ -1,21 +1,14 @@
-import { BsChevronDown } from "react-icons/bs";
-import Button, { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
+import Dropdown from "react-bootstrap/Dropdown";
+import DropdownButton from "react-bootstrap/DropdownButton";
 
 const SortSelector = () => {
   return (
     <>
-      <Menu>
-        <MenuButton as={Button} rightIcon={<BsChevronDown />}>
-          Actions
-        </MenuButton>
-        <MenuList>
-          <MenuItem>Download</MenuItem>
-          <MenuItem>Create a Copy</MenuItem>
-          <MenuItem>Mark as Draft</MenuItem>
-          <MenuItem>Delete</MenuItem>
-          <MenuItem>Attend a Workshop</MenuItem>
-        </MenuList>
-      </Menu>
+      <DropdownButton id="dropdown-basic-button" title="Sort">
+        <Dropdown.Item href="#/action-1">County</Dropdown.Item>
+        <Dropdown.Item href="#/action-2">Zipcode</Dropdown.Item>
+        <Dropdown.Item href="#/action-3">Site Name</Dropdown.Item>
+      </DropdownButton>
     </>
   );
 };

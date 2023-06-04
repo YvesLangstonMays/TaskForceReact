@@ -6,6 +6,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import SortSelector from "./SortSelector";
 
 const ListTransitionBox = () => {
   const [data, setData] = useState([]);
@@ -32,7 +33,9 @@ const ListTransitionBox = () => {
 
   return (
     <>
-      <div className="listDiv"></div>
+      <div className="listDiv">
+        <SortSelector></SortSelector>
+      </div>
     </>
   );
 };
