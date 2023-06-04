@@ -4,8 +4,6 @@ import HomeTransitionBox from "./components/HomeTransitionBox";
 import ZipCodeEntry from "./components/ZipCodeEntry";
 import ListTransitionBox from "./components/ListTransitionBox";
 import InstructionsTransitionBox from "./components/InstructionsTransitionBox";
-import TableHead from "./components/Table/TableHead";
-import TableBody from "./components/Table/TableBody";
 
 function App() {
   const [homeIsActive, setHomeIsActive] = useState(0);
