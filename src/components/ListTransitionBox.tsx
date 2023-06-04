@@ -1,7 +1,14 @@
-import { useEffect, useState } from "react";
+import {
+  JSXElementConstructor,
+  ReactElement,
+  ReactFragment,
+  ReactPortal,
+  useEffect,
+  useState,
+} from "react";
 
 const ListTransitionBox = () => {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -14,7 +21,6 @@ const ListTransitionBox = () => {
       })
       .catch((err) => {
         setError(err.message);
-        setData(null);
       })
       .finally(() => {
         setLoading(false);
@@ -23,12 +29,46 @@ const ListTransitionBox = () => {
 
   return (
     <>
-      <div className="App">
-        <h1>API Posts</h1>
-        {loading && <div>A moment please...</div>}
-        {error && (
-          <div>{`There is a problem fetching the post data - ${error}`}</div>
-        )}
+      <div className="listDiv">
+        <table className="listTable">
+          <thead>
+            <tr className="listRow">
+              <th>uuid</th>
+              <th>Site Name</th>
+              <th>Address</th>
+              <th>City</th>
+              <th>County</th>
+              <th>ZIP</th>
+              <th>Site Type</th>
+              <th>Latitude</th>
+              <th>Longitude</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data.map(
+              (item: {
+                title:
+                  | string
+                  | number
+                  | boolean
+                  | ReactElement<any, string | JSXElementConstructor<any>>
+                  | ReactFragment
+                  | ReactPortal
+                  | null
+                  | undefined;
+              }) => (
+                <tr>
+                  <td scope="row">{item.title}</td>
+                  <td scope="row"></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              )
+            )}
+          </tbody>
+        </table>
       </div>
     </>
   );
