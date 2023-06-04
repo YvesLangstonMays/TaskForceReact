@@ -17,6 +17,7 @@ const ListTransitionBox = () => {
       .then((data) => data.json())
       .then((data) => {
         setData(data);
+        console.log(data);
         setError(null);
       })
       .catch((err) => {

@@ -6,7 +6,7 @@ const InstructionsTransitionBox = () => {
           <br />
           To find a clinic nearby using the map, click the "Home" button in the
           top right corner. Enter your zipcode into the entry box above the map,
-          and press submit. If there are any clinics within that zipcode, they
+          and press "Submit". If there are any clinics within that zipcode, they
           will be displayed on the map.
           <br />
           <br />
