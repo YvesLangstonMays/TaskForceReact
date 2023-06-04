@@ -73,7 +73,7 @@ function App() {
         ></NavBar>
         <div className="nav"></div>
         <div className="mainDiv">
-          <div className="text">
+          <div className="titleText">
             <div className="wrapper">
               <div id="T" className="letter">
                 T
