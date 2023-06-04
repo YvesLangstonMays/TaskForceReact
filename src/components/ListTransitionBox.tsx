@@ -17,7 +17,6 @@ const ListTransitionBox = () => {
       .then((data) => data.json())
       .then((data) => {
         setData(data);
-        console.log(data);
         setError(null);
       })
       .catch((err) => {
@@ -28,49 +27,12 @@ const ListTransitionBox = () => {
       });
   }, []);
 
+  const uuid = [data[0]];
+  console.log(uuid);
+
   return (
     <>
-      <div className="listDiv">
-        <table className="listTable">
-          <thead>
-            <tr className="listRow">
-              <th>uuid</th>
-              <th>Site Name</th>
-              <th>Address</th>
-              <th>City</th>
-              <th>County</th>
-              <th>ZIP</th>
-              <th>Site Type</th>
-              <th>Latitude</th>
-              <th>Longitude</th>
-            </tr>
-          </thead>
-          <tbody>
-            {data.map(
-              (item: {
-                title:
-                  | string
-                  | number
-                  | boolean
-                  | ReactElement<any, string | JSXElementConstructor<any>>
-                  | ReactFragment
-                  | ReactPortal
-                  | null
-                  | undefined;
-              }) => (
-                <tr>
-                  <td scope="row">{item.title}</td>
-                  <td scope="row"></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                  <td></td>
-                </tr>
-              )
-            )}
-          </tbody>
-        </table>
-      </div>
+      <div className="listDiv"></div>
     </>
   );
 };
