@@ -6,6 +6,7 @@ from Website import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('List/', views.databaseList),
+    path('Table/', views.getTable),
     # path('getaddress/', views.databaseList),
     path('getaddress/<str:pk>/', views.zipDetail, name="Zipcode"),
     path('__debug__/', include('debug_toolbar.urls')),

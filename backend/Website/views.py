@@ -6,6 +6,9 @@ from . serializer import WebsiteSerializer
 from rest_framework.decorators import api_view
 from django.shortcuts import get_object_or_404
 import json
+import pandas as pd
+from django.shortcuts import HttpResponse
+
 
 
 serializer_class = WebsiteSerializer
@@ -29,4 +32,11 @@ def databaseList(self):
     zipCodes = list(Sites.objects.all().values_list('ZIP', flat=True))
     siteList = [siteNames, counties, addresses, zipCodes]
     return Response(siteList)
+
+@api_view(['GET'])
+def getTable(request):
+    dataFrame = pd.read_csv("Finals.csv")
+    final = dataFrame.to_html()
+
+    return HttpResponse(final)
     

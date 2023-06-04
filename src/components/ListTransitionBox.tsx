@@ -14,7 +14,7 @@ const ListTransitionBox = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/List/")
+    fetch("http://127.0.0.1:8000/Table/")
       .then((data) => data.json())
       .then((data) => {
         setData(data);
@@ -28,14 +28,9 @@ const ListTransitionBox = () => {
       });
   }, []);
 
-  const uuid = [data[0]];
-  console.log(uuid);
-
   return (
     <>
-      <div className="listDiv">
-        <SortSelector></SortSelector>
-      </div>
+      <div className="listDiv">{data[0]}</div>
     </>
   );
 };

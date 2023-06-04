@@ -7,6 +7,7 @@ name = "pypi"
 django-annoying = "*"
 django-debug-toolbar = "*"
 django-rest-framework = "*"
+numpy = "*"
 
 [dev-packages]
 
