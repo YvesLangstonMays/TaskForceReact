@@ -18,12 +18,10 @@ function App() {
     if (listIsActive == 1) {
       setListIsActive(0);
       setHomeIsActive(1);
-    }
-    if (instructionsActive == 1) {
+    } else if (instructionsActive == 1) {
       setInstructionsActive(0);
       setHomeIsActive(1);
-    }
-    if (homeIsActive == 1) {
+    } else if (homeIsActive == 1) {
       setHomeIsActive(0);
     }
   };
@@ -34,8 +32,10 @@ function App() {
       setListIsActive(1);
     } else if (listIsActive == 1) {
       setListIsActive(0);
-    } else {
+    } else if (homeIsActive == 1) {
       setHomeIsActive(0);
+      setListIsActive(1);
+    } else if (listIsActive == 0) {
       setListIsActive(1);
     }
   };
