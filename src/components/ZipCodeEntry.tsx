@@ -21,7 +21,7 @@ type FormData = z.infer<typeof schema>;
 
 const ZipCodeEntry = () => {
   const [dataList, setDataList] = useState([]);
-  const [dbData, setdbData] = useState();
+
   const {
     register,
     handleSubmit,

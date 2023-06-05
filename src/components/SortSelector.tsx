@@ -81,11 +81,11 @@ function SortSelector({ data }: { data: Data }) {
 
   return (
     <table>
-      <thead>
+      <thead className="content-table">
         <tr>
           {headers.map((row) => {
             return (
-              <td key={row.key}>
+              <th key={row.key}>
                 {row.label}{" "}
                 <SortButton
                   columnKey={row.key}
@@ -95,7 +95,7 @@ function SortSelector({ data }: { data: Data }) {
                     sortKey,
                   }}
                 />
-              </td>
+              </th>
             );
           })}
         </tr>
@@ -106,7 +106,14 @@ function SortSelector({ data }: { data: Data }) {
           return (
             <tr key={location.ZIP}>
               <td>
-                <button className="btn btn-primary">{location.ZIP}</button>
+                <button
+                  id={location.ZIP.toString()}
+                  data-loc={location.ZIP}
+                  className="btn btn-success"
+                  onClick={(event) => console.log(event.currentTarget.id)}
+                >
+                  {location.ZIP}
+                </button>
               </td>
               <td>{location.County}</td>
               <td>{location.City}</td>

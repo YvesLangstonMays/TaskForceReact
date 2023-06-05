@@ -14,7 +14,7 @@ const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
         <ul>
           <li>
             <button
-              className="btn btn-primary"
+              className="btn btn-success"
               id="listItem"
               onClick={homeClick}
             >
@@ -23,7 +23,7 @@ const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
           </li>
           <li>
             <button
-              className="btn btn-primary"
+              className="btn btn-success"
               id="listItem"
               onClick={listClick}
             >
@@ -32,7 +32,7 @@ const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
           </li>
           <li>
             <button
-              className="btn btn-primary"
+              className="btn btn-success"
               id="listItem"
               onClick={instructionClick}
             >

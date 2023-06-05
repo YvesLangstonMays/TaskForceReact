@@ -81,45 +81,61 @@
 }
 
 
-table {
+
+.btn_btn-success
+{
+	width: 90px;
+}
+table
+{
 	width: 100%;
 	table-layout: fixed;
-	overflow: scroll;
-	border: 1px solid;
-  }
-  
-  tbody {
-	width: 100%;
-	background-color: rgba(255, 255, 255, 0.7);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  tr {
-	width: 100%;
-	border: 1px solid;
-  }
-  
-  th,
-  td {
-	padding: 20px 15px;
-	text-align: left;
+}
+.content-table
+{
+	
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead, tr
+{
+	border: 2px solid black;
+	color: white;
+	text-align:left;
+	font-weight: bold;
+}
+
+.content-table th,
+.content-table td
+{
 	font-weight: 500;
-	font-size: 17px;
-	color: black;
-	border: 1px solid;
-  }
-  
+	padding: 10px 3px;
+}
+
+.content-table tbody, tr
+{
+	border-bottom: 1px solid;
+}
+
+.content-table tbody, tr:nth-of-type(even)
+{
+	background-color: black;
+}
+
+
+
   .sort-button {
 	background-color: transparent;
 	border: none;
-  
 	padding: 5px 10px;
 	margin: 0;
 	line-height: 1;
 	font-size: 15px;
 	color: black;
 	cursor: pointer;
-  
 	transition: transform 0.05s ease-out;
   }
   
@@ -136,11 +152,10 @@ table {
 {
 	position: absolute;
 	z-index: 9;
-	background-color: white;
+	background-color: #2f5b38 ;
 	width: 100%;
 	height: 100%;
 	animation: transitionBox 0.9s;
-	background-image: linear-gradient( #cbcbcb,#2f5b38 );
 	overflow: scroll;
 }
 
@@ -152,7 +167,7 @@ table {
 	width: 0%;
 	height: 0%;
 	animation: transitionBoxExit 0.5s;
-	background-image: linear-gradient( #cbcbcb,#2f5b38 );
+	background-color: #2f5b38 ;
 	overflow: scroll;
 
 }
@@ -183,16 +198,7 @@ table {
 
 }
 
-.listTable {
-	border: 1px solid;
-	width: 100%;
-	height: 100%;
-	border-collapse: collapse;
-	text-align: center;
-	vertical-align: bottom;
-	background-image: linear-gradient( #cbcbcb,#2f5b38 );
 
-  }
 
 .instructionsDiv
 {

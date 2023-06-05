@@ -22,12 +22,9 @@ const ListTransitionBox = () => {
       });
   }, []);
 
-  console.log("Error", error);
-  console.log("Loading", loading);
-  console.log("data", data);
   return (
     <>
-      <div className="listDiv">
+      <div className="sortDiv">
         <SortSelector data={Listdata}></SortSelector>
       </div>
     </>
