@@ -21,8 +21,7 @@ type FormData = z.infer<typeof schema>;
 
 const ZipCodeEntry = () => {
   const [dataList, setDataList] = useState([]);
-
-  // I need to move passedComp into a hook so that it us updated
+  const [dbData, setdbData] = useState();
   const {
     register,
     handleSubmit,
@@ -30,6 +29,7 @@ const ZipCodeEntry = () => {
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
   const onSubmit = (data: FieldValues) => {
+    console.log("Searching for..." + data["zipCode"].toString());
     const newData = data["zipCode"].toString();
     const theURL = "http://127.0.0.1:8000/getaddress/";
     const urlToFetch = `${theURL}${newData}`;
