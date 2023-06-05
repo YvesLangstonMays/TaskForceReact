@@ -55,17 +55,17 @@ function SortButton({
 }
 
 function SortSelector({ data }: { data: Data }) {
-  const [sortKey, setSortKey] = useState<SortKeys>("ZIP");
+  const [sortKey, setSortKey] = useState<SortKeys>("Address");
   const [sortOrder, setSortOrder] = useState<SortOrder>("ascn");
 
   const headers: { key: SortKeys; label: string }[] = [
-    { key: "index", label: "id" },
-    { key: "SiteName", label: "Site" },
-    { key: "Address", label: "Address" },
-    { key: "City", label: "City" },
-    { key: "County", label: "County" },
     { key: "ZIP", label: "Zip" },
-    { key: "site_type", label: "Type" },
+    { key: "County", label: "County" },
+    { key: "City", label: "City" },
+    { key: "Address", label: "Address" },
+    { key: "SiteName", label: "Clinic Name" },
+
+    { key: "site_type", label: "Clinic Type" },
   ];
 
   const sortedData = useCallback(
@@ -105,12 +105,13 @@ function SortSelector({ data }: { data: Data }) {
         {sortedData().map((location) => {
           return (
             <tr key={location.ZIP}>
-              <td>{location.index}</td>
-              <td>{location.SiteName}</td>
-              <td>{location.Address}</td>
-              <td>{location.City}</td>
+              <td>
+                <button className="btn btn-primary">{location.ZIP}</button>
+              </td>
               <td>{location.County}</td>
-              <td>{location.ZIP}</td>
+              <td>{location.City}</td>
+              <td>{location.Address}</td>
+              <td>{location.SiteName}</td>
               <td>{location.site_type}</td>
             </tr>
           );
