@@ -4,6 +4,6 @@ Texas Teen Sexual Health Task Force
 
 
 TODO:
-2. When a new submit is made, the center must be on or nearby the newly generated markers
-3. Add InfoWindows to markers that show the site name and address
-4. Add functionality to find nearest locations given a zip code
+1. When a new submit is made, the center must be on or nearby the newly generated markers
+2. Add InfoWindows to markers that show the site name and address
+3. Add functionality to find nearest locations given a zip code
