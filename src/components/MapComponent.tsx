@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 const API_Key = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 const style = {
-  height: "30rem",
+  height: "25rem",
   width: "100%",
 };
 

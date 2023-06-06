@@ -54,10 +54,19 @@ function SortButton({
   );
 }
 
-function SortSelector({ data }: { data: Data }) {
-  const [sortKey, setSortKey] = useState<SortKeys>("Address");
+function SortSelector({
+  data,
+  setHomeIsActive,
+  setListIsActive,
+  setZipButtonID,
+}: {
+  data: Data;
+  setHomeIsActive: (state: Number) => {};
+  setListIsActive: (state: Number) => {};
+  setZipButtonID: (state: Number) => {};
+}) {
+  const [sortKey, setSortKey] = useState<SortKeys>("ZIP");
   const [sortOrder, setSortOrder] = useState<SortOrder>("ascn");
-
   const headers: { key: SortKeys; label: string }[] = [
     { key: "ZIP", label: "Zip" },
     { key: "County", label: "County" },
@@ -77,6 +86,14 @@ function SortSelector({ data }: { data: Data }) {
     setSortOrder(sortOrder === "ascn" || sortKey !== key ? "desc" : "ascn");
 
     setSortKey(key);
+  }
+
+  // replace any below
+  function changeActive(event: any) {
+    setListIsActive(0);
+    setHomeIsActive(1);
+    console.log("Setting zipButtonID", event.currentTarget.id);
+    setZipButtonID(event.currentTarget.id);
   }
 
   return (
@@ -110,7 +127,7 @@ function SortSelector({ data }: { data: Data }) {
                   id={location.ZIP.toString()}
                   data-loc={location.ZIP}
                   className="btn btn-success"
-                  onClick={(event) => console.log(event.currentTarget.id)}
+                  onClick={(event) => changeActive(event)}
                 >
                   {location.ZIP}
                 </button>

@@ -1,8 +1,9 @@
 import { FieldValues, useForm } from "react-hook-form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import MapComponent from "./MapComponent";
+import Button from "@mui/material/Button";
 
 const schema = z.object({
   zipCode: z
@@ -19,20 +20,29 @@ const schema = z.object({
 
 type FormData = z.infer<typeof schema>;
 
-const ZipCodeEntry = () => {
-  const [dataList, setDataList] = useState([]);
+// Change zipCodeEntry props from any; create new type
 
+const ZipCodeEntry = (props: any) => {
+  const [dataList, setDataList] = useState([]);
+  const { zipButtonID, setZipButtonID } = props;
   const {
     register,
     handleSubmit,
     formState: { errors, isValid },
   } = useForm<FormData>({ resolver: zodResolver(schema) });
 
+  useEffect(() => {
+    if (zipButtonID) {
+      onSubmit({ zipCode: zipButtonID });
+    } else {
+      console.log("zipButton ID reset");
+    }
+  }, [zipButtonID]);
+
   const onSubmit = (data: FieldValues) => {
-    console.log("Searching for..." + data["zipCode"].toString());
-    const newData = data["zipCode"].toString();
+    console.log("DATA---------", data, zipButtonID);
     const theURL = "http://127.0.0.1:8000/getaddress/";
-    const urlToFetch = `${theURL}${newData}`;
+    const urlToFetch = `${theURL}${data.zipCode}`;
 
     fetch(urlToFetch, {
       method: "GET",
@@ -40,6 +50,7 @@ const ZipCodeEntry = () => {
       .then((data) => data.json())
       .then((data) => {
         setDataList(data);
+        setZipButtonID("");
         if (data.length == 0) {
           alert(
             "No sites found in this zipcode. Please try a different zipcode.\n\n\nNo se encontró ninguna ubicación. Intente con un código postal diferente."
@@ -66,9 +77,14 @@ const ZipCodeEntry = () => {
 
           {errors.zipCode && <p>{errors.zipCode.message}</p>}
 
-          <button disabled={!isValid} className="btn btn-primary" type="submit">
+          <Button
+            variant="contained"
+            disabled={!isValid}
+            color="success"
+            type="submit"
+          >
             Submit
-          </button>
+          </Button>
         </div>
       </form>
     </>

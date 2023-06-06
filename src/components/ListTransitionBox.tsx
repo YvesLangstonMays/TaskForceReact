@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import SortSelector from "./SortSelector";
 import Listdata from "../data/Finals.json";
 
-const ListTransitionBox = () => {
+const ListTransitionBox = (props: any) => {
+  const { setHomeIsActive, setListIsActive, setZipButtonID } = props;
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -15,6 +16,7 @@ const ListTransitionBox = () => {
         setError(null);
       })
       .catch((err) => {
+        console.log(error);
         setError(err.message);
       })
       .finally(() => {
@@ -22,10 +24,19 @@ const ListTransitionBox = () => {
       });
   }, []);
 
+  console.log(error);
+  console.log(data);
+  console.log(loading);
+
   return (
     <>
       <div className="sortDiv">
-        <SortSelector data={Listdata}></SortSelector>
+        <SortSelector
+          setZipButtonID={setZipButtonID}
+          setHomeIsActive={setHomeIsActive}
+          setListIsActive={setListIsActive}
+          data={Listdata}
+        ></SortSelector>
       </div>
     </>
   );

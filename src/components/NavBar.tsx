@@ -1,3 +1,5 @@
+import Button from "@mui/material/Button";
+
 interface Props {
   homeClick?: () => void;
   listClick?: () => void;
@@ -8,36 +10,39 @@ const NavBar = ({ homeClick, listClick, instructionClick }: Props) => {
   return (
     <>
       <nav className="nav">
-        <a href="/" className="site-title" id="listItem">
-          Texas Teen Sexual Health Task Force
-        </a>
         <ul>
           <li>
-            <button
+            <Button
+              color="success"
+              variant="contained"
               className="btn btn-success"
               id="listItem"
               onClick={homeClick}
             >
               Home
-            </button>
+            </Button>
           </li>
           <li>
-            <button
+            <Button
+              color="success"
+              variant="contained"
               className="btn btn-success"
               id="listItem"
               onClick={listClick}
             >
               List Search
-            </button>
+            </Button>
           </li>
           <li>
-            <button
+            <Button
+              color="success"
+              variant="contained"
               className="btn btn-success"
               id="listItem"
               onClick={instructionClick}
             >
               Instructions
-            </button>
+            </Button>
           </li>
         </ul>
       </nav>

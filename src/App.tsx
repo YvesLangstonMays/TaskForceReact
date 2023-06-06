@@ -12,6 +12,8 @@ function App() {
 
   const [instructionsActive, setInstructionsActive] = useState(0);
 
+  const [zipButtonID, setZipButtonID] = useState("");
+
   const homeClick = () => {
     if (listIsActive == 1) {
       setListIsActive(0);
@@ -109,36 +111,6 @@ function App() {
               </div>
               <div className="shadow"> </div>
             </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
-            <div className="wrapper">
-              <div id="T" className="letter">
-                {" "}
-              </div>
-              <div className="shadow"> </div>
-            </div>
 
             <div className="wrapper">
               <div id="T" className="letter">
@@ -172,17 +144,26 @@ function App() {
             </div>
           </div>
           <div className="logosDiv">
-            <img src="src/images/twc final.png" className="twc" />
-            <img src="src/images/task force final.png" className="tff" />
+            {/* <img src="src/images/twc final.png" className="twc" />
+            <img src="src/images/task force final.png" className="tff" /> */}
           </div>
           <div className="zipbox">
-            <ZipCodeEntry />
+            <ZipCodeEntry
+              setZipButtonID={setZipButtonID}
+              zipButtonID={zipButtonID}
+            />
           </div>
           <div className="homeTransitionBox" data-active={homeIsActive}>
             {!!homeIsActive && <HomeTransitionBox></HomeTransitionBox>}
           </div>
           <div className="ListTransitionBox" data-active={listIsActive}>
-            {!!listIsActive && <ListTransitionBox></ListTransitionBox>}
+            {!!listIsActive && (
+              <ListTransitionBox
+                setZipButtonID={setZipButtonID}
+                setListIsActive={setListIsActive}
+                setHomeIsActive={setHomeIsActive}
+              />
+            )}
           </div>
           <div
             className="InstructionsTransitionBox"
