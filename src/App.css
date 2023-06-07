@@ -153,6 +153,7 @@ table
 
 .ListTransitionBox[data-active="1"]
 {
+	border-radius: 5px;
 	position: absolute;
 	z-index: 9;
 	background-color: #E0A800 ;
@@ -164,6 +165,7 @@ table
 
 .ListTransitionBox[data-active="0"]
 {
+	border-radius: 5px;
 	position: absolute;
 	z-index: 9;
 	background-color: #E0A800;

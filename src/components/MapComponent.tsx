@@ -1,3 +1,4 @@
+import { RectangleF } from "@react-google-maps/api";
 import {
   GoogleMap,
   LoadScript,
@@ -43,15 +44,24 @@ function MapComponent({ passedComp }: any) {
   }, []);
 
   function createKey(location: { lat: any; lng: any }) {
+    console.log(
+      "createkey lat: ",
+      typeof location.lat,
+      " createkey lng: ",
+      typeof location.lng
+    );
+    console.log(location.lat + "\n" + location.lng);
     return location.lat + location.lng;
   }
+
+  useEffect(() => {}, [GoogleMap]);
 
   return (
     <div className="theMap">
       <LoadScript googleMapsApiKey={API_Key}>
         <GoogleMap mapContainerStyle={style} zoom={6} center={userLocation}>
           <MarkerF position={userLocation} label={"You"} />
-          <MarkerClustererF>
+          <MarkerClustererF zoomOnClick={true}>
             {(clusterer) =>
               locations.map(
                 (location: google.maps.LatLng | google.maps.LatLngLiteral) => (
