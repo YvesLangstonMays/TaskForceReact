@@ -148,7 +148,7 @@ table
 
 .html, body{
 	overflow: scroll;
-	background-color: black;
+	background-color: rgb(255, 255, 255);
 }
 
 .ListTransitionBox[data-active="1"]
@@ -168,7 +168,7 @@ table
 	border-radius: 5px;
 	position: absolute;
 	z-index: 9;
-	background-color: #E0A800;
+	background-color: #ffffff;
 	width: 0%;
 	height: 0%;
 	animation: transitionBoxExit 0.5s;
@@ -275,7 +275,7 @@ table
 
 .bodyDiv{
 	position: absolute;
-	background-color: black;
+	background-color: rgb(250, 250, 250);
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
@@ -287,7 +287,7 @@ table
 {
 	animation: transitionInMainDiv 4s;
 
-  background-color: #E0A800;
+  background-color: #f1f0f0;
   border: 15px solid #7AB885;
   filter: brightness(90%);
   border-radius: 15px;
@@ -365,7 +365,7 @@ table
 	transform: translateX(-50%);
 	user-select: none;
 
-	.wrapper {
+	:is(wrapper) {
 		
 		padding-left: 10px;
 		padding-right: 10px;
